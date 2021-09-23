@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="8dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    tools:showIn="@layout/chat_input">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="@bool/livelike_chat_component_layout_transition_enabled"
+        android:background="@drawable/ic_chat_message_bubble_rounded_rectangle">
+
+        <TextView
+            android:id="@+id/user_profile_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/livelike_white"
+            android:textSize="@dimen/livelike_default_chat_cell_name_size"
+            android:textStyle="bold"
+            android:visibility="gone"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Me (SilverDog318)"
+            tools:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/gamification_badge_iv"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_marginLeft="4dp"
+            android:contentDescription="@string/coins"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="@id/user_profile_tv"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:src="@drawable/coin" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.livelike.engagementsdk.widget.view.components.PointView
+        android:id="@+id/pointView"
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:visibility="gone"
+        app:hidePlus="true"
+        app:iconSize="14dp"
+        app:textSize="12sp"
+        tools:visibility="visible" />
+
+
+    <TextView
+        android:id="@+id/rank_label"
+        style="@style/livlelike_rank_label_text_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:letterSpacing="-0.05"
+        android:paddingLeft="4dp"
+        android:paddingTop="2dp"
+        android:paddingRight="4dp"
+        android:paddingBottom="2dp"
+        android:text="@string/livelike_rank_label"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/rank_value"
+        style="@style/livelike_rank_value_text_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:visibility="gone"
+        tools:text="#12"
+        tools:textColor="@color/livelike_black"
+        tools:visibility="visible" />
+
+
+</LinearLayout>
+
+
+    

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- TODO get the actual font from design team-->
+    <style name="buttonStyle">
+        <item name="android:textSize">30sp</item>
+        <item name="android:colorBackground">#99000000</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="livelike_extra_small_text_style" parent="TextAppearance.AppCompat.Small">
+        <item name="android:textSize">10sp</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+    </style>
+
+    <style name="livelike_small_text_style" parent="TextAppearance.AppCompat.Small">
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+    </style>
+
+    <style name="livelike_large_text_style" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+    </style>
+
+
+    <style name="livlelike_rank_label_text_style" parent="livelike_extra_small_text_style">
+        <item name="android:textSize">@dimen/livelike_rank_label_text_size</item>
+        <item name="android:textColor">@color/livelike_rank_label_text_color</item>
+        <item name="android:background">@drawable/livelike_rank_label_gradient_background</item>
+    </style>
+
+    <style name="livelike_rank_value_text_style" parent="livelike_small_text_style">
+        <item name="android:textColor">@color/livelike_white</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="livelike_tag_with_title_text_style" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textColor">@color/livelike_white</item>
+    </style>
+
+
+    <style name="SelectableItemTheme">
+        <item name="colorControlHighlight">#525252</item>
+    </style>
+
+    <style name="SelectableItemBackground">
+        <item name="android:theme">@style/SelectableItemTheme</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+    </style>
+
+    <style name="ChatReactionAnimation">
+        <item name="android:windowEnterAnimation">@anim/chat_reaction_popup_show_animation</item>
+        <item name="android:windowExitAnimation">@anim/chat_reaction_popup_hide_animation</item>
+    </style>
+
+    <style name="ChatReactionAnimationReverse">
+        <item name="android:windowExitAnimation">@anim/chat_reaction_popup_hide_animation_reverse
+        </item>
+        <item name="android:windowEnterAnimation">@anim/chat_reaction_popup_show_animation_reverse
+        </item>
+    </style>
+</resources>

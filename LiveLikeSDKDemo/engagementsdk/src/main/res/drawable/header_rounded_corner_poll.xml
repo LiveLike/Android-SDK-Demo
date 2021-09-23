@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:angle="@integer/header_gradient_angle"
+        android:endColor="@color/livelike_poll_title_gradient_right"
+        android:startColor="@color/livelike_poll_title_gradient_left" />
+    <padding
+        android:bottom="@dimen/livelike_poll_title_padding_bottom"
+        android:left="@dimen/livelike_poll_title_padding_left"
+        android:right="@dimen/livelike_poll_title_padding_right"
+        android:top="@dimen/livelike_poll_title_padding_top" />
+    <corners
+        android:topLeftRadius="@dimen/livelike_poll_header_corner_radius"
+        android:topRightRadius="@dimen/livelike_poll_header_corner_radius" />
+</shape>

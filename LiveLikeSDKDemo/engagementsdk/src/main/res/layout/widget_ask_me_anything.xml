@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <View
+        android:id="@+id/txtTitleBackground"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/ama_header_rounded_corner"
+        app:layout_constraintBottom_toBottomOf="@+id/titleView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/titleView" />
+
+    <TextView
+        android:id="@+id/titleView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingStart="16dp"
+        android:paddingLeft="16dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="16dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="10dp"
+        android:textAllCaps="true"
+        android:textColor="@color/livelike_header_text_color"
+        android:textSize="@dimen/livelike_header_text_size"
+        android:textStyle="bold"
+        app:fontFamily="@font/livelike_header_font"
+        app:layout_constraintEnd_toStartOf="@+id/textEggTimer"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="jkfj ksjfh sjf jfsg jkfh jfdh hfg kfj kfjd gkfjhgfskj lkfs j hkfdj hgkjfdh g" />
+
+    <com.livelike.engagementsdk.widget.view.components.EggTimerCloseButtonView
+        android:id="@+id/textEggTimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/titleView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/titleView"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/widgetContainer"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ama_rounded_corners"
+        android:orientation="vertical"
+        android:paddingBottom="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleView">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/bodyText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/title_padding_start"
+                    android:paddingTop="@dimen/title_padding_top"
+                    android:paddingRight="@dimen/title_padding_right"
+                    android:textColor="@color/livelike_option_text_color"
+                    android:textSize="14sp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:text="blah blah blah blah blah bnmn mnbmmn mnmnmn mnmnmn mnbmmnmn mnmnmnmnmnmnmnmnmnmn mnmnmnmn mnmnmnmn mnmnmnmnmnmn nmnmnmnmnmnmn" />
+
+
+                <EditText
+                    android:id="@+id/userInputEdt"
+                    android:layout_width="match_parent"
+                    android:layout_height="73dp"
+                    android:layout_marginLeft="@dimen/livelike_ama_inputbox_margin_left"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginRight="@dimen/livelike_ama_inputbox_margin_right"
+                    android:background="@drawable/ama_edit_box"
+                    android:gravity="top"
+                    android:hint="@string/livelike_ama_input_prompt"
+                    android:imeOptions="actionDone"
+                    android:inputType="textMultiLine|textAutoCorrect"
+                    android:maxLength="240"
+                    android:paddingTop="@dimen/livelike_ama_inputbox_padding"
+                    android:paddingLeft="@dimen/livelike_ama_inputbox_padding"
+                    android:paddingRight="@dimen/livelike_ama_inputbox_padding_right"
+                    android:paddingBottom="@dimen/livelike_ama_inputbox_padding_bottom"
+                    android:scrollbarStyle="outsideInset"
+                    android:scrollbars="vertical"
+                    android:scrollHorizontally="false"
+                    android:textColor="@color/ama_user_input_box_text_color_selector"
+                    android:textColorHint="@color/livelike_ama_input_box_hint_color"
+                    android:textDirection="locale"
+                    android:textIsSelectable="false"
+                    android:textSize="14sp"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/bodyText" />
+
+                <TextView
+                    android:id="@+id/textCount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintBottom_toBottomOf="@id/userInputEdt"
+                    android:layout_marginRight="@dimen/livelike_ama_count_text_margin_end"
+                    android:layout_marginBottom="@dimen/livelike_ama_count_text_margin_bottom"
+                    android:layout_marginTop="@dimen/livelike_ama_count_text_margin_top"
+                    android:textSize="12sp"
+                    android:visibility="visible"
+                    android:textColor="@color/livelike_ama_input_box_hint_color"
+                    android:text="240"/>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="@dimen/livelike_ama_send_margin_top"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/userInputEdt">
+
+                    <Button
+                        android:id="@+id/sendBtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/livelike_ama_send_margin_left"
+                        android:background="@drawable/ama_send_button_layout"
+                        android:minWidth="70dp"
+                        android:text="@string/livelike_ama_send_label"
+                        android:textColor="@color/ama_send_button_text_color_selector"
+                        android:textDirection="locale"
+                        android:textSize="12sp" />
+
+
+                    <TextView
+                        android:id="@+id/confirmationMessageTv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="44dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="20dp"
+                        android:layout_toRightOf="@+id/sendBtn"
+                        android:autoSizeMaxTextSize="12sp"
+                        android:autoSizeMinTextSize="9sp"
+                        android:autoSizeStepGranularity="1sp"
+                        android:autoSizeTextType="uniform"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="@dimen/livelike_ama_confirmation_message_padding_start"
+                        android:textColor="@color/livelike_ama_confirmation_msg_text_color"
+                        android:textSize="12sp"
+                        android:visibility="visible"
+                        tools:text="Stay tuned to see" />
+                </RelativeLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </ScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

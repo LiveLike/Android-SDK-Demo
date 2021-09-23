@@ -1,0 +1,150 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'org.jetbrains.dokka'
+apply plugin: 'maven-publish'
+
+group = 'com.livelike'
+
+android {
+    compileSdkVersion rootProject.compileSdkVersion
+
+    androidExtensions {
+        experimental = true
+    }
+    defaultPublishConfig "productionRelease"
+    defaultConfig {
+        // required for customizing vector icon colors
+        vectorDrawables.useSupportLibrary = true
+        multiDexEnabled true
+        minSdkVersion rootProject.minSdkVersion
+        compileSdkVersion rootProject.targetSdkVersion
+        targetSdkVersion rootProject.targetSdkVersion
+        versionCode 1
+        versionName "2.23"
+
+        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+        consumerProguardFiles 'proguard-rules.pro'
+
+        buildConfigField "String", "SDK_VERSION", '"2.23"'
+    }
+
+    buildFeatures {
+        viewBinding  true
+    }
+
+    afterEvaluate {
+        publishing {
+            publications {
+                // creating a release publication
+                release(MavenPublication) {
+                    from components.productionRelease
+                    groupId =  'com.livelike.android-engagement-sdk'
+                    artifactId = 'engagementsdk'
+                    version = '2.23'
+                }
+            }
+        }
+    }
+    
+    buildTypes {
+        debug {}
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    flavorDimensions 'default'
+    productFlavors {
+        staging {
+            dimension 'default'
+            buildConfigField "String", "CONFIG_URL", '"https://cf-blast-staging.livelikecdn.com/api/v1/"'
+        }
+        production {
+            dimension 'default'
+            buildConfigField "String", "CONFIG_URL", '"https://cf-blast.livelikecdn.com/api/v1/"'
+        }
+        qatesting {
+            dimension 'default'
+            buildConfigField "String", "CONFIG_URL", '"https://cf-blast-qa.livelikecdn.com/api/v1/"'
+        }
+        qaiconictesting {
+            dimension 'default'
+            buildConfigField "String", "CONFIG_URL", '"https://cf-blast-iconic.livelikecdn.com/api/v1/"'
+        }
+        qagamechangerstesting {
+            dimension 'default'
+            buildConfigField "String", "CONFIG_URL", '"https://cf-blast-game-changers.livelikecdn.com/api/v1/"'
+        }
+        qadigtesting {
+            dimension 'default'
+            buildConfigField "String", "CONFIG_URL", '"https://cf-blast-dig.livelikecdn.com/api/v1/"'
+        }
+    }
+
+    /*sonarqube {
+        androidVariant 'stagingDebug'
+    }*/
+
+    dokka {
+        outputFormat = 'html'
+        outputDirectory = "$buildDir/dokka"
+        configuration {
+            skipEmptyPackages = true
+            skipDeprecated = true
+            includeNonPublic = false
+            reportUndocumented = true
+        }
+    }
+
+    configurations {
+        debug
+        release
+    }
+}
+
+dependencies {
+    implementation "androidx.appcompat:appcompat:$appcompatVersion"
+    implementation "androidx.constraintlayout:constraintlayout:$constraintLayoutVersion"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlinVersion"
+    implementation 'com.google.android.material:material:1.3.0'
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutinesVersion"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutinesVersion"
+    implementation 'androidx.multidex:multidex:2.0.1'
+
+    // Pubnub SDK for real-time communication
+    implementation group: 'com.pubnub', name: 'pubnub-gson', version: "$pubnubVersion"
+    implementation "com.google.code.gson:gson:$gsonVersion"
+    implementation("com.squareup.okhttp3:okhttp:$okhttpVersion")
+    implementation "com.airbnb.android:lottie:$lottieVersion"
+    implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
+
+
+
+    // Glide
+    //noinspection GradleDependency
+    implementation "com.github.bumptech.glide:glide:$glideVersion"
+    annotationProcessor "com.github.bumptech.glide:compiler:$glideVersion"
+    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.18'
+
+
+    // Time lib
+    implementation "com.jakewharton.threetenabp:threetenabp:$threetenabpVersion"
+
+    // Analytics
+    implementation "com.mixpanel.android:mixpanel-android:$mixpanelVersion"
+
+    implementation "com.squareup.okhttp3:logging-interceptor:$okhttpVersion"
+
+
+    // unit tests components
+    testImplementation 'org.jetbrains.kotlinx:kotlinx-coroutines-test:1.4.3'
+    testImplementation "junit:junit:$junitVersion"
+//    testImplementation "org.mockito:mockito-core:$mockitoVersion"
+    testImplementation "org.mockito.kotlin:mockito-kotlin:3.1.0"
+}
+
+repositories {
+    mavenCentral()
+    google()
+}

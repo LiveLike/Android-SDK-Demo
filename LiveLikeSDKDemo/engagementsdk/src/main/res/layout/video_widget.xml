@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/videoAlertWidget"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!--suppress AndroidDomInspection -->
+    <TextView
+        android:id="@+id/labelText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/header_rounded_corner_video_alert"
+        android:fontFamily="@font/livelike_video_alert_label_font"
+        android:maxLength="@integer/alert_label_text_max_length"
+        android:paddingLeft="@dimen/livelike_video_title_padding_left"
+        android:paddingRight="@dimen/livelike_video_title_padding_right"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textAllCaps="true"
+        android:textColor="@color/livelike_header_text_color"
+        android:textSize="@dimen/livelike_header_text_size"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="VIDEO WIDGET" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/widgetContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="@bool/livelike_widget_component_layout_transition_enabled"
+        android:background="@drawable/video_alert_rounded_corner_black_background"
+        app:layout_constraintTop_toBottomOf="@+id/labelText">
+
+
+        <TextView
+            android:id="@+id/bodyText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/livelike_body_text_margin_left"
+            android:paddingTop="@dimen/livelike_video_alert_body_text_margin_top"
+            android:layout_marginRight="@dimen/livelike_body_text_margin_right"
+            android:paddingBottom="@dimen/livelike_video_alert_body_text_margin_bottom"
+            android:fontFamily="@font/livelike_video_alert_body_font"
+            android:textColor="@color/livelike_video_alert_body_text_color"
+            android:textSize="@dimen/livelike_video_alert_body_text_size"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Duis aute irure dolor in reprehenderit in voluptate velit esse cillum!!!" />
+
+
+        <!--<com.google.android.exoplayer2.ui.PlayerView
+            android:id="@+id/playerView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/bodyText"
+            app:resize_mode="fixed_height"
+            />-->
+
+        <ImageView
+            android:id="@+id/thumbnailView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/bodyText"
+            android:contentDescription="@string/image"
+            />
+
+        <VideoView
+            android:id="@+id/playerView"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/video_view_background"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/bodyText"
+            />
+
+
+
+        <ImageView
+            android:id="@+id/ic_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_play_button"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/bodyText"
+            app:layout_constraintBottom_toTopOf="@id/linkBackground"
+            android:contentDescription="@string/image"
+            />
+
+
+        <LinearLayout
+            android:id="@+id/playbackErrorView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="visible"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/bodyText"
+            app:layout_constraintBottom_toTopOf="@id/linkBackground"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_play_disabled"
+              />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/livelike_playback_error"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/livelike_white"
+            android:textDirection="locale"
+            android:textAlignment="gravity"
+
+            />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/sound_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/linkBackground"
+            android:orientation="horizontal"
+            android:visibility="invisible"
+            android:background="@drawable/video_alert_volume_button_background"
+            android:layout_marginBottom="16dp">
+
+            <ImageView
+                android:id="@+id/ic_sound"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="2dp"
+                app:srcCompat="@drawable/ic_volume_off"
+                android:contentDescription="@string/image"
+                />
+
+            <TextView
+                android:id="@+id/mute_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="3dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="3dp"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:text="@string/livelike_mute_label"/>
+
+
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:indeterminateTint="@color/livelike_video_loader_color"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@id/playerView"
+            app:layout_constraintBottom_toBottomOf="@id/playerView"/>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/linkBackground"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:animateLayoutChanges="@bool/livelike_widget_component_layout_transition_enabled"
+            android:background="@drawable/video_alert_bottom_rounded_corner_with_background"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/playerView"
+            app:layout_constraintVertical_bias="1.0">
+
+            <View
+                android:id="@+id/linkArrow"
+                android:layout_width="8dp"
+                android:layout_height="10dp"
+                android:layout_marginRight="@dimen/livelike_link_arrow_margin_right"
+                android:animateLayoutChanges="@bool/livelike_widget_component_layout_transition_enabled"
+                android:background="@drawable/alert_ic_arrow"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <!--suppress AndroidDomInspection -->
+            <TextView
+                android:id="@+id/linkText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/livelike_alert_link_text_margin_left"
+                android:layout_marginTop="@dimen/livelike_alert_link_text_margin_top"
+                android:layout_marginEnd="@dimen/livelike_alert_link_text_margin_bottom"
+                android:layout_marginRight="@dimen/livelike_alert_link_text_margin_right"
+                android:layout_marginBottom="@dimen/livelike_alert_link_text_margin_bottom"
+                android:fontFamily="@font/livelike_alert_link_font"
+                android:paddingTop="@dimen/livelike_alert_link_padding_top"
+                android:paddingBottom="@dimen/livelike_alert_link_padding_bottom"
+                android:text="Coupons"
+                android:textColor="@color/livelike_alert_link_text_color"
+                android:textSize="@dimen/livelike_alert_link_text_size"
+                android:textStyle="bold"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/linkArrow"
+                app:layout_constraintRight_toLeftOf="@+id/linkArrow"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

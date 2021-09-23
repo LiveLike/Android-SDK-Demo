@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/bkgrd_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:animateLayoutChanges="@bool/livelike_widget_component_layout_transition_enabled"
+        android:background="@drawable/answer_outline_selected_quiz"
+        android:minHeight="0dp"
+        android:orientation="vertical">
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+            <!--suppress AndroidDomInspection -->
+            <TextView
+                android:id="@+id/text_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.9"
+                android:fontFamily="@font/livelike_option_font"
+                android:gravity="center_vertical"
+                android:lineSpacingExtra="8sp"
+                android:minHeight="45dp"
+                android:paddingStart="@dimen/widget_option_item_padding_start"
+                android:paddingLeft="@dimen/widget_option_item_padding_start"
+                android:paddingEnd="@dimen/widget_option_item_padding_end"
+                android:paddingRight="@dimen/widget_option_item_padding_end"
+                android:textAllCaps="false"
+                android:textColor="@color/livelike_option_text_color"
+                android:textStyle="bold"
+                android:textSize="@dimen/livelike_option_text_size"
+                tools:ignore="TextViewEdits"
+                tools:text="Some Hockey Player" />
+
+            <!--suppress AndroidDomInspection -->
+            <TextView
+                android:id="@+id/percentageText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="0.1"
+                android:gravity="end"
+                android:textColor="@color/livelike_percent_label_text_color"
+                android:textSize="@dimen/livelike_percent_label_text_size"
+                android:textStyle="bold"
+                app:fontFamily="@font/livelike_option_font"
+
+                tools:text="100%"
+                tools:visibility="visible" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <ProgressBar
+            android:id="@+id/determinateBar"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:indeterminate="false"
+            android:textSize="@dimen/livelike_option_text_size"
+            android:visibility="visible"
+            tools:progress="60"
+            tools:progressDrawable="@drawable/progress_bar_correct"
+            tools:visibility="visible" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.legacy.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="4dp"></androidx.legacy.widget.Space>
+</androidx.appcompat.widget.LinearLayoutCompat>

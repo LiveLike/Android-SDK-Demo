@@ -1,0 +1,4193 @@
+{
+  "widgets": {
+    "alert": {
+      "root": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "00000000",
+          "format": "fill"
+        }
+      },
+      "body": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "213335",
+          "format": "fill"
+        }
+      },
+      "footer": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "213335",
+          "format": "fill"
+        }
+      },
+      "timer": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "213335",
+          "format": "fill"
+        }
+      },
+      "dismiss": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          -8,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "213335",
+          "format": "fill"
+        }
+      },
+      "title": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          8,
+          0,
+          8,
+          16
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "213335",
+          "format": "fill"
+        }
+      },
+      "header": {
+        "borderRadius": [
+          6,
+          6,
+          0,
+          0
+        ],
+        "padding": [
+          8,
+          0,
+          8,
+          16
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": 213335,
+          "format": "fill"
+        }
+      }
+    },
+    "imageSlider": {
+      "root": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "00000000",
+          "format": "fill"
+        }
+      },
+      "body": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "00000000",
+          "format": "fill"
+        }
+      },
+      "footer": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "00000000",
+          "format": "fill"
+        }
+      },
+      "timer": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "00000000",
+          "format": "fill"
+        }
+      },
+      "dismiss": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          -8,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "00000000",
+          "format": "fill"
+        }
+      },
+      "title": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          8,
+          0,
+          8,
+          16
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "00000000",
+          "format": "fill"
+        }
+      },
+      "header": {},
+      "interactiveTrackRight": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "00000000",
+          "format": "fill"
+        }
+      },
+      "interactiveTrackLeft": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "00000000",
+          "format": "fill"
+        }
+      },
+      "resultsTrackRight": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "00000000",
+          "format": "fill"
+        }
+      },
+      "resultsTrackLeft": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "00000000",
+          "format": "fill"
+        }
+      },
+      "marker": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "00000000",
+          "format": "fill"
+        }
+      }
+    },
+    "prediction": {
+      "root": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "213335",
+          "format": "fill"
+        }
+      },
+      "body": {
+        "borderRadius": [
+          0,
+          0,
+          6,
+          6
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "213335",
+          "format": "fill"
+        }
+      },
+      "footer": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "213335",
+          "format": "fill"
+        }
+      },
+      "timer": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "00000000",
+          "format": "fill"
+        }
+      },
+      "dismiss": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          -8,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "00000000",
+          "format": "fill"
+        }
+      },
+      "title": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          16,
+          12,
+          8,
+          16
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "213335",
+          "format": "fill"
+        }
+      },
+      "selectedOptionDescription": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "505760",
+        "fontColor": "000000",
+        "background": {
+          "color": "213335",
+          "format": "fill"
+        }
+      },
+      "unselectedOptionDescription": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "505760",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "213335",
+          "format": "fill"
+        }
+      },
+      "selectedOptionImage": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "505760",
+        "fontColor": "000000",
+        "background": {
+          "color": "213335",
+          "format": "fill"
+        }
+      },
+      "unselectedOptionBar": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "505760",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "213335",
+          "format": "fill"
+        }
+      },
+      "unselectedOptionPercentage": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "505760",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "213335",
+          "format": "fill"
+        }
+      },
+      "unselectedOptionImage": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "505760",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "213335",
+          "format": "fill"
+        }
+      },
+      "selectedOptionPercentage": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          16,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "505760",
+        "fontColor": "000000",
+        "background": {
+          "color": "213335",
+          "format": "fill"
+        }
+      },
+      "unselectedOption": {
+        "borderRadius": [
+          6,
+          6,
+          6,
+          6
+        ],
+        "padding": [
+          10,
+          10,
+          10,
+          10
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 1,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "505760",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "213335",
+          "format": "fill"
+        }
+      },
+      "header": {
+        "borderRadius": [
+          6,
+          6,
+          0,
+          0
+        ],
+        "padding": [
+          8,
+          0,
+          8,
+          16
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "505760",
+        "fontColor": "ffffff",
+        "background": {
+          "colors": [
+            "213335",
+            "213335"
+          ],
+          "direction": 90,
+          "format": "uniformGradient"
+        }
+      },
+      "selectedOption": {
+        "borderRadius": [
+          6,
+          6,
+          6,
+          6
+        ],
+        "padding": [
+          10,
+          10,
+          10,
+          10
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 2,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "505760",
+        "fontColor": "000000",
+        "background": {
+          "color": "ffffff",
+          "format": "fill"
+        }
+      },
+      "selectedOptionBar": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "0096c8",
+        "fontColor": "000000",
+        "background": {
+          "colors": [
+            "003264",
+            "0096c8"
+          ],
+          "direction": 90,
+          "format": "uniformGradient"
+        }
+      }
+    },
+    "predictionFollowUp": {
+      "root": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "00000000",
+          "format": "fill"
+        }
+      },
+      "body": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "00000000",
+          "format": "fill"
+        }
+      },
+      "footer": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "00000000",
+          "format": "fill"
+        }
+      },
+      "timer": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "00000000",
+          "format": "fill"
+        }
+      },
+      "dismiss": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          -8,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "00000000",
+          "format": "fill"
+        }
+      },
+      "title": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          16,
+          12,
+          8,
+          16
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "00000000",
+          "format": "fill"
+        }
+      },
+      "correctOptionPercentage": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "000000",
+        "background": {
+          "color": "ffffff",
+          "format": "fill"
+        }
+      },
+      "incorrectOptionPercentage": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "00000000",
+          "format": "fill"
+        }
+      },
+      "correctOptionDescription": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "00000000",
+          "format": "fill"
+        }
+      },
+      "incorrectOptionDescription": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "00000000",
+          "format": "fill"
+        }
+      },
+      "correctOptionImage": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "00000000",
+          "format": "fill"
+        }
+      },
+      "incorrectOptionImage": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "00000000",
+          "format": "fill"
+        }
+      },
+      "correctOptionBar": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "colors": [
+            "81ca00",
+            "429321"
+          ],
+          "direction": 90,
+          "format": "uniformGradient"
+        }
+      },
+      "incorrectOptionBar": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "colors": [
+            "dc0028",
+            "d0021b"
+          ],
+          "direction": 90,
+          "format": "uniformGradient"
+        }
+      },
+      "correctOption": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 2,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "81ca00",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "00000000",
+          "format": "fill"
+        }
+      },
+      "incorrectOption": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 2,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "dc0028",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "00000000",
+          "format": "fill"
+        }
+      },
+      "selectedOptionDescription": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "00000000",
+          "format": "fill"
+        }
+      },
+      "unselectedOptionDescription": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "00000000",
+          "format": "fill"
+        }
+      },
+      "selectedOptionImage": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "00000000",
+          "format": "fill"
+        }
+      },
+      "unselectedOptionBar": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "00000000",
+          "format": "fill"
+        }
+      },
+      "unselectedOptionPercentage": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "00000000",
+          "format": "fill"
+        }
+      },
+      "unselectedOptionImage": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "00000000",
+          "format": "fill"
+        }
+      },
+      "selectedOptionPercentage": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          16,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "00000000",
+          "format": "fill"
+        }
+      },
+      "unselectedOption": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 2,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "00000000",
+          "format": "fill"
+        }
+      },
+      "header": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          8,
+          0,
+          8,
+          16
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "colors": [
+            "0096c8",
+            "003264"
+          ],
+          "direction": 90,
+          "format": "uniformGradient"
+        }
+      },
+      "selectedOption": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 2,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "505760",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "ffffff",
+          "format": "fill"
+        }
+      },
+      "selectedOptionBar": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "c96dd7",
+        "fontColor": "000000",
+        "background": {
+          "colors": [
+            "003264",
+            "0096c8"
+          ],
+          "direction": 90,
+          "format": "uniformGradient"
+        }
+      }
+    },
+    "poll": {
+      "root": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "sans-serif"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "000000",
+        "background": {
+          "color": "ffffff",
+          "format": "fill"
+        }
+      },
+      "body": {
+        "borderRadius": [
+          0,
+          0,
+          6,
+          6
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "sans-serif"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "232d37",
+          "format": "fill"
+        }
+      },
+      "footer": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "sans-serif"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "000000",
+        "background": {
+          "color": "ffffff",
+          "format": "fill"
+        }
+      },
+      "timer": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "sans-serif"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "000000",
+        "background": {
+          "color": "ffffff",
+          "format": "fill"
+        }
+      },
+      "dismiss": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "sans-serif"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          -8,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "000000",
+        "background": {
+          "color": "ffffff",
+          "format": "fill"
+        }
+      },
+      "title": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          8,
+          0,
+          8,
+          16
+        ],
+        "fontFamily": [
+          "sans-serif"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "ffffff",
+          "format": "fill"
+        }
+      },
+      "selectedOptionDescription": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "sans-serif"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "000000",
+        "background": {
+          "color": "ffffff",
+          "format": "fill"
+        }
+      },
+      "unselectedOptionDescription": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "sans-serif"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "ffffff",
+          "format": "fill"
+        }
+      },
+      "selectedOptionImage": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "sans-serif"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "000000",
+        "background": {
+          "color": "ffffff",
+          "format": "fill"
+        }
+      },
+      "unselectedOptionBar": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "sans-serif"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "ffffff",
+          "format": "fill"
+        }
+      },
+      "unselectedOptionPercentage": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "sans-serif"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "ffffff",
+          "format": "fill"
+        }
+      },
+      "unselectedOptionImage": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "sans-serif"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "ffffff",
+          "format": "fill"
+        }
+      },
+      "selectedOptionPercentage": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          16,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "sans-serif"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "000000",
+        "background": {
+          "color": "ffffff",
+          "format": "fill"
+        }
+      },
+      "unselectedOption": {
+        "borderRadius": [
+          6,
+          6,
+          6,
+          6
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "sans-serif"
+        ],
+        "fontSize": 16,
+        "borderWidth": 2,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "505760",
+        "fontColor": "ffffff",
+        "background": {
+          "color": 213335,
+          "format": "fill"
+        }
+      },
+      "header": {
+        "borderRadius": [
+          6,
+          6,
+          0,
+          0
+        ],
+        "padding": [
+          8,
+          0,
+          8,
+          16
+        ],
+        "fontFamily": [
+          "sans-serif"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "colors": [
+            213335,
+            213335
+          ],
+          "direction": 90,
+          "format": "uniformGradient"
+        }
+      },
+      "selectedOption": {
+        "borderRadius": [
+          6,
+          6,
+          6,
+          6
+        ],
+        "padding": [
+          10,
+          10,
+          10,
+          10
+        ],
+        "fontFamily": [
+          "sans-serif"
+        ],
+        "fontSize": 16,
+        "borderWidth": 2,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": 505760,
+        "fontColor": "000000",
+        "background": {
+          "color": "ffffff",
+          "format": "fill"
+        }
+      },
+      "selectedOptionBar": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "sans-serif"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "c96dd7",
+        "fontColor": "000000",
+        "background": {
+          "colors": [
+            "38e93c",
+            "2d2d2d"
+          ],
+          "direction": 90,
+          "format": "uniformGradient"
+        }
+      }
+    },
+    "quiz": {
+      "root": {
+        "borderRadius": [
+          10,
+          10,
+          10,
+          10
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "2d2d2d",
+          "format": "fill"
+        }
+      },
+      "body": {
+        "borderRadius": [
+          0,
+          0,
+          6,
+          6
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 24,
+        "borderWidth": 0,
+        "fontWeight": "bold",
+        "margin": [
+          24,
+          24,
+          24,
+          24
+        ],
+        "borderColor": "213335",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "232d37",
+          "format": "fill"
+        }
+      },
+      "footer": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 24,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "00000000",
+          "format": "fill"
+        }
+      },
+      "timer": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 24,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "00000000",
+          "format": "fill"
+        }
+      },
+      "dismiss": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 24,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          -8,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "00000000",
+          "format": "fill"
+        }
+      },
+      "title": {
+        "borderRadius": [
+          8,
+          8,
+          8,
+          8
+        ],
+        "padding": [
+          16,
+          12,
+          8,
+          16
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "2d2d2d",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "2d2d2d",
+          "format": "fill"
+        }
+      },
+      "correctOptionPercentage": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "00000000",
+          "format": "fill"
+        }
+      },
+      "incorrectOptionPercentage": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "00000000",
+          "format": "fill"
+        }
+      },
+      "correctOptionDescription": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "00000000",
+          "format": "fill"
+        }
+      },
+      "incorrectOptionDescription": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "00000000",
+          "format": "fill"
+        }
+      },
+      "correctOptionImage": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "00000000",
+          "format": "fill"
+        }
+      },
+      "incorrectOptionImage": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "00000000",
+          "format": "fill"
+        }
+      },
+      "correctOptionBar": {
+        "borderRadius": [
+          4,
+          4,
+          4,
+          4
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "000000",
+        "fontColor": "ffffff",
+        "background": {
+          "colors": [
+            "38e93c",
+            "2d2d2d"
+          ],
+          "direction": 90,
+          "format": "uniformGradient"
+        }
+      },
+      "incorrectOptionBar": {
+        "borderRadius": [
+          4,
+          4,
+          4,
+          4
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "colors": [
+            "505050",
+            "2d2d2d"
+          ],
+          "direction": 90,
+          "format": "uniformGradient"
+        }
+      },
+      "correctOption": {
+        "borderRadius": [
+          6,
+          6,
+          6,
+          6
+        ],
+        "padding": [
+          10,
+          10,
+          10,
+          10
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 1,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "505760",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "213335",
+          "format": "fill"
+        }
+      },
+      "incorrectOption": {
+        "borderRadius": [
+          6,
+          6,
+          6,
+          6
+        ],
+        "padding": [
+          10,
+          10,
+          10,
+          10
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 1,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "505760",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "213335",
+          "format": "fill"
+        }
+      },
+      "selectedOptionDescription": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "000000",
+        "background": {
+          "color": "3CF237",
+          "format": "fill"
+        }
+      },
+      "unselectedOptionDescription": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "00000000",
+          "format": "fill"
+        }
+      },
+      "selectedOptionImage": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "00000000",
+          "format": "fill"
+        }
+      },
+      "unselectedOptionBar": {
+        "borderRadius": [
+          100,
+          100,
+          100,
+          100
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "00000000",
+          "format": "fill"
+        }
+      },
+      "unselectedOptionPercentage": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "00000000",
+          "format": "fill"
+        }
+      },
+      "unselectedOptionImage": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "00000000",
+          "format": "fill"
+        }
+      },
+      "selectedOptionPercentage": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          16,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "00000000",
+          "format": "fill"
+        }
+      },
+      "unselectedOption": {
+        "borderRadius": [
+          6,
+          6,
+          6,
+          6
+        ],
+        "padding": [
+          10,
+          10,
+          10,
+          10
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 1,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "505760",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "213335",
+          "format": "fill"
+        }
+      },
+      "header": {
+        "borderRadius": [
+          6,
+          6,
+          0,
+          0
+        ],
+        "padding": [
+          8,
+          0,
+          8,
+          16
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": 213335,
+          "format": "fill"
+        }
+      },
+      "selectedOption": {
+        "borderRadius": [
+          6,
+          6,
+          6,
+          6
+        ],
+        "padding": [
+          10,
+          10,
+          10,
+          10
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 1,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "505760",
+        "fontColor": "000000",
+        "background": {
+          "color": "ffffff",
+          "format": "fill"
+        }
+      },
+      "selectedOptionBar": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 36,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "c96dd7",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "00000000",
+          "format": "fill"
+        }
+      }
+    },
+    "socialEmbed": {
+      "root": {
+        "borderRadius": [
+          6,
+          6,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 36,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "213335",
+          "format": "fill"
+        }
+      },
+      "body": {
+        "borderRadius": [
+          0,
+          0,
+          6,
+          6
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 36,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "213335",
+          "format": "fill"
+        }
+      },
+      "footer": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 36,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "213335",
+          "format": "fill"
+        }
+      },
+      "timer": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "213335",
+          "format": "fill"
+        }
+      },
+      "dismiss": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          -8,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "00000000",
+          "format": "fill"
+        }
+      },
+      "title": {
+        "borderRadius": [
+          8,
+          8,
+          8,
+          8
+        ],
+        "padding": [
+          8,
+          0,
+          8,
+          16
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "213335",
+          "format": "fill"
+        }
+      }
+    },
+    "richText": {
+      "root": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "00000000",
+          "format": "fill"
+        }
+      },
+      "body": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "00000000",
+          "format": "fill"
+        }
+      },
+      "footer": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "00000000",
+          "format": "fill"
+        }
+      },
+      "timer": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "00000000",
+          "format": "fill"
+        }
+      },
+      "dismiss": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          -8,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "00000000",
+          "format": "fill"
+        }
+      },
+      "title": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          8,
+          0,
+          8,
+          16
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "213335",
+          "format": "fill"
+        }
+      }
+    },
+    "cheerMeter": {
+      "root": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "00000000",
+          "format": "fill"
+        }
+      },
+      "body": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "00000000",
+          "format": "fill"
+        }
+      },
+      "footer": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "00000000",
+          "format": "fill"
+        }
+      },
+      "timer": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "00000000",
+          "format": "fill"
+        }
+      },
+      "dismiss": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          -8,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "00000000",
+          "format": "fill"
+        }
+      },
+      "title": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          8,
+          0,
+          8,
+          16
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "00000000",
+          "format": "fill"
+        }
+      },
+      "header": {},
+      "versus": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          8,
+          0,
+          8,
+          16
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "00000000",
+          "format": "fill"
+        }
+      },
+      "sideBBar": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "00000000",
+          "format": "fill"
+        }
+      },
+      "sideABar": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "00000000",
+          "format": "fill"
+        }
+      },
+      "sideAButton": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "00000000",
+          "format": "fill"
+        }
+      },
+      "sideBButton": {
+        "borderRadius": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fontFamily": [
+          "Sk-Modernist-Bold"
+        ],
+        "fontSize": 16,
+        "borderWidth": 0,
+        "fontWeight": "normal",
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": "00000000",
+        "fontColor": "ffffff",
+        "background": {
+          "color": "00000000",
+          "format": "fill"
+        }
+      }
+    }
+  },
+  "version": 1
+}

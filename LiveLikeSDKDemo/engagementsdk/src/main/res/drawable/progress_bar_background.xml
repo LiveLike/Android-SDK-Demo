@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@android:id/background">
+        <shape>
+            <corners android:radius="@dimen/livelike_percent_bar_corner_radius_image" />
+
+        </shape>
+    </item>
+
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape>
+                <corners android:radius="@dimen/livelike_percent_bar_corner_radius_image" />
+                <gradient
+                    android:angle="@integer/image_option_percent_bar_gradient_angle"
+                    android:centerY="1.0"
+                    android:endColor="@color/livelike_poll_bar_gradient_right"
+                    android:startColor="@color/livelike_poll_bar_gradient_left" />
+            </shape>
+        </clip>
+    </item>
+</layer-list>

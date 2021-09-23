@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="WidgetView">
+        <attr name="winAnimation" format="string" />
+        <attr name="loseAnimation" format="string" />
+        <attr name="drawAnimation" format="string" />
+        <attr name="stayTunedAnimation" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="ChatView">
+        <attr name="displayUserProfile" format="boolean" />
+        <attr name="showStickerSend" format="boolean" />
+        <attr name="showMessageTime" format="boolean" />
+        <attr name="usernameColor" format="color" />
+        <attr name="otherUsernameColor" format="color" />
+        <attr name="sendIconTintColor" format="color" />
+        <attr name="stickerIconTintColor" format="color" />
+        <attr name="messageColor" format="color" />
+        <attr name="chatBubbleBackground" format="reference|color" />
+        <attr name="chatBackground" format="reference|color" />
+        <attr name="chatBubbleWidth" format="dimension">
+            <enum name="fill_parent" value="-1" />
+            <enum name="match_parent" value="-1" />
+            <enum name="wrap_content" value="-2" />
+        </attr>
+        <attr name="chatBackgroundWidth" format="dimension">
+            <enum name="fill_parent" value="-1" />
+            <enum name="match_parent" value="-1" />
+            <enum name="wrap_content" value="-2" />
+        </attr>
+        <attr name="sendButtonWidth" format="dimension">
+            <enum name="fill_parent" value="-1" />
+            <enum name="match_parent" value="-1" />
+            <enum name="wrap_content" value="-2" />
+        </attr>
+        <attr name="sendButtonHeight" format="dimension">
+            <enum name="fill_parent" value="-1" />
+            <enum name="match_parent" value="-1" />
+            <enum name="wrap_content" value="-2" />
+        </attr>
+        <attr name="chatBubblePaddingLeft" format="dimension" />
+        <attr name="chatBubblePaddingRight" format="dimension" />
+        <attr name="chatBubblePaddingTop" format="dimension" />
+        <attr name="chatBubblePaddingBottom" format="dimension" />
+        <attr name="chatSendButtonPaddingLeft" format="dimension" />
+        <attr name="chatSendButtonPaddingRight" format="dimension" />
+        <attr name="chatSendButtonPaddingTop" format="dimension" />
+        <attr name="chatSendButtonPaddingBottom" format="dimension" />
+        <attr name="chatMarginLeft" format="dimension" />
+        <attr name="chatMarginRight" format="dimension" />
+        <attr name="chatMarginTop" format="dimension" />
+        <attr name="chatMarginBottom" format="dimension" />
+        <attr name="chatBubbleMarginLeft" format="dimension" />
+        <attr name="chatBubbleMarginRight" format="dimension" />
+        <attr name="chatBubbleMarginTop" format="dimension" />
+        <attr name="chatBubbleMarginBottom" format="dimension" />
+        <attr name="chatInputBackground" format="reference|color" />
+        <attr name="chatReactionBackground" format="reference|color" />
+        <attr name="chatInputTextColor" format="color" />
+        <attr name="chatInputTextHintColor" format="color" />
+        <attr name="chatInputTextSize" format="dimension" />
+        <attr name="chatViewBackground" format="reference|color" />
+        <attr name="chatDisplayBackground" format="reference|color" />
+        <attr name="chatInputViewBackground" format="reference|color" />
+        <attr name="chatReactionYPosition" format="dimension" />
+        <attr name="chatReactionXPosition" format="dimension" />
+        <attr name="chatReactionElevation" format="dimension" />
+        <attr name="chatReactionRadius" format="dimension" />
+        <attr name="chatSelectedReactionRadius" format="dimension" />
+        <attr name="chatReactionPanelColor" format="color" />
+        <attr name="chatReactionPanelCountColor" format="color" />
+        <attr name="chatReactionDisplayCountColor" format="color" />
+        <attr name="chatReactionFlagTintColor" format="color" />
+        <attr name="chatReactionMessageBubbleHighlightedBackground" format="reference" />
+        <attr name="chatReactionMessageBackHighlightedBackground" format="reference|color" />
+        <attr name="chatReactionPadding" format="dimension" />
+        <attr name="chatSendDrawable" format="reference" />
+        <attr name="chatStickerSendDrawable" format="reference" />
+        <attr name="chatStickerKeyboardSendDrawable" format="reference" />
+        <attr name="userPicDrawable" format="reference" />
+        <attr name="chatSendBackground" format="reference|color" />
+        <attr name="chatAvatarCircle" format="boolean" />
+        <attr name="chatAvatarMarginRight" format="dimension" />
+        <attr name="chatAvatarMarginBottom" format="dimension" />
+        <attr name="chatAvatarMarginLeft" format="dimension" />
+        <attr name="chatAvatarMarginTop" format="dimension" />
+        <attr name="chatAvatarRadius" format="dimension" />
+        <attr name="chatAvatarWidth" format="dimension" />
+        <attr name="chatAvatarHeight" format="dimension" />
+        <attr name="chatAvatarGravity">
+            <flag name="bottom" value="80" />
+            <flag name="center" value="17" />
+            <flag name="center_horizontal" value="1" />
+            <flag name="center_vertical" value="16" />
+            <flag name="clip_horizontal" value="8" />
+            <flag name="clip_vertical" value="128" />
+            <flag name="end" value="8388613" />
+            <flag name="fill" value="119" />
+            <flag name="fill_horizontal" value="7" />
+            <flag name="fill_vertical" value="112" />
+            <flag name="left" value="3" />
+            <flag name="right" value="5" />
+            <flag name="start" value="8388611" />
+            <flag name="top" value="48" />
+        </attr>
+        <attr name="rankValueTextColor" format="color" />
+        <attr name="stickerBackground" format="reference|color" />
+        <attr name="stickerTabBackground" format="reference|color" />
+        <attr name="stickerSelectedTabIndicatorColor" format="color" />
+        <attr name="stickerRecentEmptyTextColor" format="color" />
+        <attr name="chatMessageTopBorderHeight" format="dimension" />
+        <attr name="chatMessageTopBorderColor" format="color" />
+        <attr name="chatMessageBottomBorderHeight" format="dimension" />
+        <attr name="chatMessageBottomBorderColor" format="color" />
+        <attr name="reaction_hint_enable" format="boolean" />
+        <attr name="reaction_icon" format="reference" />
+        <attr name="reaction_icons_margin_top" format="dimension" />
+        <attr name="reaction_icons_margin_right" format="dimension" />
+        <attr name="reaction_icons_margin_left" format="dimension" />
+        <attr name="reaction_icons_margin_bottom" format="dimension" />
+        <attr name="reaction_icon_position_bottom" format="boolean" />
+        <attr name="reaction_count_icons_position_bottom" format="boolean" />
+        <attr name="reaction_icons_gap_factor" format="float" />
+        <attr name="chatReactionModerationFlagVisible" format="boolean" />
+        <attr name="reaction_count_margin_top" format="dimension" />
+        <attr name="reaction_count_margin_right" format="dimension" />
+        <attr name="reaction_count_margin_left" format="dimension" />
+        <attr name="reaction_count_margin_bottom" format="dimension" />
+        <attr name="chatUserNameTextStyle">
+            <flag name="normal" value="0" />
+            <flag name="bold" value="1" />
+            <flag name="italic" value="2" />
+        </attr>
+        <attr name="chatUserNameCustomFontPath" format="string" />
+        <attr name="chatUserNameTextAllCaps" format="boolean" />
+        <attr name="chatUserNameTextSize" format="dimension" />
+        <attr name="chatMessageCustomFontPath" format="string" />
+        <attr name="chatMessageTextStyle">
+            <flag name="normal" value="0" />
+            <flag name="bold" value="1" />
+            <flag name="italic" value="2" />
+        </attr>
+        <attr name="chatMessageTextSize" format="dimension" />
+        <attr name="chatMessageTimeCustomFontPath" format="string" />
+        <attr name="chatMessageTimeTextSize" format="dimension" />
+        <attr name="chatMessageTimeTextStyle">
+            <flag name="normal" value="0" />
+            <flag name="bold" value="1" />
+            <flag name="italic" value="2" />
+        </attr>
+        <attr name="chatMessageTimeTextAllCaps" format="boolean" />
+        <attr name="chatMessageTimeTextColor" format="color" />
+        <attr name="chatMessageTimeTextLetterSpacing" format="float"/>
+        <attr name="chatMessageTextLetterSpacing" format="float"/>
+        <attr name="chatUserNameTextLetterSpacing" format="float"/>
+        <attr name="chatReactionDisplayCountTextStyle">
+            <flag name="normal" value="0" />
+            <flag name="bold" value="1" />
+            <flag name="italic" value="2" />
+        </attr>
+        <attr name="chatReactionDisplayCountCustomFontPath" format="string" />
+        <attr name="chatReactionDisplayCountTextSize" format="dimension" />
+        <attr name="chatReactionDisplaySize" format="dimension" />
+        <attr name="chatReactionPanelGravity">
+            <flag name="bottom" value="80" />
+            <flag name="center" value="17" />
+            <flag name="center_horizontal" value="1" />
+            <flag name="center_vertical" value="16" />
+            <flag name="clip_horizontal" value="8" />
+            <flag name="clip_vertical" value="128" />
+            <flag name="end" value="8388613" />
+            <flag name="fill" value="119" />
+            <flag name="fill_horizontal" value="7" />
+            <flag name="fill_vertical" value="112" />
+            <flag name="left" value="3" />
+            <flag name="right" value="5" />
+            <flag name="start" value="8388611" />
+            <flag name="top" value="48" />
+        </attr>
+        <attr name="chatReactionPanelCountCustomFontPath" format="string" />
+        <attr name="chatReactionPanelCountVisibleIfZero" format="boolean" />
+        <attr name="chatMessageLinkTextColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="PointView">
+        <attr name="hidePlus" format="boolean" />
+        <attr name="iconSize" format="dimension" />
+        <attr name="textSize" format="dimension" />
+        <attr name="textColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="ImageSlider">
+
+        <attr name="progress_value" format="float" />
+        <attr name="bar_progress_color_start" format="color" />
+        <attr name="bar_progress_color_end" format="color" />
+        <attr name="bar_result_color_center" format="color" />
+        <attr name="bar_result_color_end" format="color" />
+        <attr name="bar_track_color" format="color" />
+        <attr name="allow_reselection" format="boolean" />
+        <attr name="is_touch_disabled" format="boolean" />
+        <attr name="register_touches_outside_thumb" format="boolean" />
+
+    </declare-styleable>
+
+</resources>

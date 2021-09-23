@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/image_slider_widget_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <View
+            android:id="@+id/txtTitleBackground"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/image_slider_header_top_rounded_bg"
+            app:layout_constraintBottom_toBottomOf="@+id/titleView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/titleView" />
+
+        <com.livelike.engagementsdk.widget.view.components.TitleView
+            android:id="@+id/titleView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/title_padding_start"
+            android:paddingTop="@dimen/title_padding_top"
+            android:paddingEnd="@dimen/title_padding_end"
+            android:paddingRight="@dimen/title_padding_right"
+            android:paddingBottom="@dimen/title_padding_bottom"
+            app:layout_constraintEnd_toStartOf="@+id/textEggTimer"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.livelike.engagementsdk.widget.view.components.EggTimerCloseButtonView
+            android:id="@+id/textEggTimer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="@+id/titleView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/titleView"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <LinearLayout
+            android:id="@+id/lay_image_slider"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/slider_rounded_corner_with_background"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/livelike_image_slider_padding_left"
+            android:paddingTop="@dimen/livelike_image_slider_padding_top"
+            android:paddingRight="@dimen/livelike_image_slider_padding_right"
+            android:paddingBottom="@dimen/livelike_image_slider_padding_bottom"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/titleView">
+
+            <com.livelike.engagementsdk.widget.view.components.imageslider.ImageSlider
+                android:id="@+id/image_slider"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                app:allow_reselection="true"
+                app:progress_value="0.3"
+                app:register_touches_outside_thumb="true"
+                tools:visibility="visible" />
+
+            <include
+                layout="@layout/common_lock_btn_lay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <com.livelike.engagementsdk.widget.view.components.PointView
+        android:id="@+id/pointView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_slider_widget_box"
+        tools:visibility="visible" />
+
+
+    <com.livelike.engagementsdk.widget.view.components.ProgressionMeterView
+        android:id="@+id/progressionMeterView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pointView" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

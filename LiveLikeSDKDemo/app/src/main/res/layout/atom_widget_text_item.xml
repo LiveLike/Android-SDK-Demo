@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bkgrd"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:animateLayoutChanges="@bool/livelike_widget_component_layout_transition_enabled"
+    android:background="@drawable/answer_background_default">
+
+    <ProgressBar
+        android:id="@+id/determinateBar"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="0dp"
+        android:layout_height="8dp"
+        android:layout_marginLeft="@dimen/widget_text_item_progress_margin_left"
+        android:layout_marginRight="@dimen/widget_text_item_progress_margin_right"
+        android:gravity="start|center"
+        android:indeterminate="false"
+        android:textSize="@dimen/livelike_option_text_size"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_button"
+        app:layout_constraintVertical_bias="0.5"
+        tools:progress="60"
+        tools:progressDrawable="@drawable/progress_bar_correct"
+        tools:visibility="visible" />
+
+    <!--suppress AndroidDomInspection -->
+    <TextView
+        android:id="@+id/text_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/livelike_option_font"
+        android:gravity="center_vertical"
+        android:lineSpacingExtra="8sp"
+        android:minHeight="45dp"
+        android:paddingStart="@dimen/widget_option_item_padding_start"
+        android:paddingLeft="@dimen/widget_option_item_padding_start"
+        android:paddingEnd="@dimen/widget_option_item_padding_end"
+        android:paddingRight="@dimen/widget_option_item_padding_end"
+        android:textAllCaps="false"
+        android:textColor="@color/livelike_option_text_color"
+        android:textSize="@dimen/livelike_option_text_size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextViewEdits"
+        tools:text="Some Hockey Player" />
+
+    <!--suppress AndroidDomInspection -->
+    <TextView
+        android:id="@+id/percentageText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="end"
+        android:textColor="@color/livelike_percent_label_text_color"
+        android:textSize="@dimen/livelike_percent_label_text_size"
+        android:textStyle="bold"
+        app:fontFamily="@font/livelike_option_font"
+        app:layout_constraintBottom_toBottomOf="@+id/text_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/determinateBar"
+        app:layout_constraintTop_toTopOf="@+id/text_button"
+        tools:text="100%"
+        tools:visibility="visible" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,236 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.LiveLikeSDKDemo" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <!--   <item name="colorPrimary">#1E2028</item>
+           <item name="colorPrimaryVariant">#1E2028</item>
+           <item name="colorOnPrimary">@color/white</item>
+           &lt;!&ndash; Secondary brand color. &ndash;&gt;
+           <item name="colorSecondary">@color/purple_200</item>
+           <item name="colorSecondaryVariant">@color/purple_500</item>
+           <item name="colorOnSecondary">@color/purple_700</item>
+        -->   <!-- Status bar color. -->
+        <!--   <item name="android:statusBarColor" tools:targetA[oi  i="l">?attr/colorPrimaryVariant</item>-->
+        <!-- Customize your theme here. -->
+        <item name="colorAccent">#0066FF</item>
+        <item name="android:textColorPrimary">#0066FF</item>
+
+    </style>
+
+    <style name="Theme.LiveLikeSDKDemo.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.LiveLikeSDKDemo.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+
+    </style>
+
+    <style name="Theme.LiveLikeSDKDemo.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="CustomTabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabTextColor">@color/tab_indicator</item>
+        <item name="tabIndicator">@drawable/tab_indicator</item>
+    </style>
+
+    <style name="TextAppearance.Design.Tab" parent="TextAppearance.AppCompat.Button">
+        <item name="android:textSize">@dimen/design_tab_text_size</item>
+        <item name="android:textColor">@color/tab_indicator</item>
+        <item name="textAllCaps">true</item>
+        <item name="fontWeight">700</item>
+    </style>
+
+    <style name="CustomChatTheme">
+        <item name="displayUserProfile">false
+        </item><!-- To display the gamification display in chatView -->
+        <!--<item name="chatWidth">match_parent</item>&lt;!&ndash; to update the width od chat bubble &ndash;&gt;-->
+        <item name="chatBubbleBackground">@drawable/chat_bubble_background
+        </item><!-- to update the background of chat bubble,it can be drawable/color -->
+
+        <item name="usernameColor">#66ffffff
+        </item><!-- update the color of username in chat message -->
+        <item name="otherUsernameColor">#66ffffff
+        </item><!-- update the color of different username in chat message -->
+        <item name="messageColor">#ffffff</item><!-- update color of message in chat message -->
+        <item name="chatInputViewBackground">#1E2028
+        </item><!-- update the background of ChatInput, it can be drawable/color -->
+
+        <item name="chatDisplayBackground">#1E2028
+        </item><!-- update the background of Chat List, it can be drawable/color  -->
+        <item name="chatViewBackground">#1E2028
+        </item><!-- update the background of full ChatFull View, it can be drawable/color -->
+        <item name="chatInputTextColor">#FFFFFF</item><!-- update the color of textInput -->
+        <item name="chatInputTextSize">15sp</item><!-- update the textsize of textInput -->
+        <item name="chatInputTextHintColor">#8e8e93
+        </item><!-- update the hint color of textInput -->
+        <!--update the margin for chat box -->
+        <item name="chatMarginBottom">3dp</item>
+        <item name="chatMarginTop">0dp</item>
+        <item name="chatMarginLeft">0dp</item>
+        <item name="chatMarginRight">0dp</item>
+        <!--update the margin for chat box -->
+        <!-- update the position of ChatReactionView -->
+        <item name="chatReactionXPosition">120dp</item>
+        <item name="chatReactionYPosition">25dp</item>
+        <!-- update the position of ChatReactionView -->
+        <item name="chatReactionElevation">6dp
+        </item><!-- update the elevation of chat reaction (CardView) -->
+
+        <item name="chatReactionRadius">20dp
+        </item> <!-- update the chat Reaction(CardView) View corner radius -->
+
+        <!--<item name="chatInputBackground">@drawable/rounded_color_input_background</item>&lt;!&ndash; update the background of chatInput with drawable/color &ndash;&gt;-->
+        <!--<item name="showChatAvatarLogo">true</item> &lt;!&ndash; show/hide the user display image in chat message &ndash;&gt;-->
+        <item name="chatAvatarCircle">true
+        </item> <!-- circle the user display image in the chat message -->
+        <!-- update the size of user display image -->
+        <item name="chatAvatarHeight">36dp</item>
+        <item name="chatAvatarWidth">32dp</item>
+        <!-- update the size of user display image -->
+        <item name="chatAvatarGravity">top
+        </item> <!-- update the gravity position of the user avatar -->
+        <!-- update the margin of user display image -->
+        <item name="chatAvatarMarginLeft">16dp</item>
+        <item name="chatAvatarMarginRight">0dp</item>
+        <item name="chatAvatarMarginBottom">0dp</item>
+        <item name="chatAvatarMarginTop">10dp</item>
+        <!-- update the margin of user display image -->
+        <!-- update size of send button -->
+        <item name="sendButtonHeight">38dp</item>
+        <item name="sendButtonWidth">38dp</item>
+        <!-- update size of send button -->
+        <!-- update the padding of send button -->
+        <item name="chatSendButtonPaddingLeft">2dp</item>
+        <item name="chatSendButtonPaddingRight">2dp</item>
+        <item name="chatSendButtonPaddingTop">0dp</item>
+        <item name="chatSendButtonPaddingBottom">0dp</item>
+        <!-- update the padding of send button -->
+        <!--<item name="userPicDrawable">@drawable/ic_user_pic</item>&lt;!&ndash; placeholder for user display image in chat message &ndash;&gt;-->
+        <!--<item name="chatSendDrawable">@drawable/ic_send</item>-->
+        <!-- update the padding of the chat bubble -->
+        <item name="chatBubblePaddingLeft">8dp</item>
+        <item name="chatBubblePaddingRight">8dp</item>
+        <item name="chatBubblePaddingTop">8dp</item>
+        <item name="chatBubblePaddingBottom">8dp</item>
+        <!-- update the padding of the chat bubble -->
+        <item name="chatReactionPadding">8dp
+        </item><!-- update the internal padding of chatReaction View -->
+        <item name="stickerSelectedTabIndicatorColor">@color/livelike_black
+        </item><!-- update the sticker keyboard tab indicator color -->
+        <item name="stickerTabBackground">#232d37
+        </item><!-- update the sticker keyboard tabs background -->
+        <item name="stickerBackground">#232d37
+        </item><!-- update the sticker keyboard background color or drawable -->
+        <item name="stickerRecentEmptyTextColor">@color/livelike_black
+        </item><!-- update the sticker keyboard empty recent chat text message color -->
+        <item name="chatMessageTopBorderHeight">1dp
+        </item><!--update height of top border of chat message box -->
+        <item name="chatMessageTopBorderColor">#232d37
+        </item><!-- update color of top border of chat message box -->
+        <item name="chatMessageBottomBorderHeight">1dp
+        </item><!--update height of bottom border of chat message box -->
+        <item name="chatMessageBottomBorderColor">#232d37
+        </item><!-- update color of bottom border of chat message box -->
+        <item name="reaction_hint_enable">true
+        </item><!--enable/diable reaction hint in chat message box -->
+        <item name="reaction_icon">@drawable/ic_chat_reaction_turner
+        </item><!--update the reaction hint icon in chat message box -->
+        <item name="showStickerSend">true
+        </item><!--show/hide the sticker keyboard icon in chat input box -->
+        <item name="showMessageTime">false
+        </item><!--show/hide message time in the chat message box -->
+        <item name="sendIconTintColor">#0078ff
+        </item><!--update the color of icon in the send message button -->
+        <item name="stickerIconTintColor">#0078ff
+        </item><!-- update the color of the icon of the sticker keyboard -->
+        <item name="chatBubbleWidth">match_parent
+        </item><!-- update the width of chat bubble,it is not the entire message box only the bubble which exclude the chat avatar -->
+        <item name="chatBackgroundWidth">wrap_content
+        </item><!-- update the width of the chat message box the entire box which include chat avatar and message bubble -->
+        <!-- update the margin for chat bubble in the message box -->
+        <item name="chatBubbleMarginLeft">10dp</item>
+        <item name="chatBubbleMarginTop">10dp</item>
+        <item name="chatBubbleMarginRight">10dp</item>
+        <item name="chatBubbleMarginBottom">10dp</item>
+        <!-- update the margin for chat bubble in the message box -->
+        <item name="chatSelectedReactionRadius">16dp
+        </item><!-- update the radius of the selected reaction in the reaction popup -->
+        <item name="chatStickerSendDrawable">@drawable/ic_chat_emoji_ios_category_smileysandpeople
+        </item>
+        <item name="chatAvatarRadius">15dp</item><!--update the radius of the chat avatar -->
+        <item name="rankValueTextColor">@color/white
+        </item><!-- update the text color of the rank show in the chat view -->
+        <item name="reaction_icons_margin_top">15dp
+        </item><!-- margins of reaction icons shown at top-right of the message box by default -->
+        <item name="reaction_icons_margin_bottom">10dp</item>
+        <item name="reaction_icon_position_bottom">true</item>
+        <item name="reaction_count_margin_top">13dp
+        </item><!-- margins of the reaction count show at message box -->
+        <item name="reaction_count_margin_bottom">11dp</item>
+        <item name="reaction_count_icons_position_bottom">true
+        </item><!-- to show the reaction count with icons positions at bottom of message box -->
+        <item name="reaction_icons_gap_factor">0.93
+        </item><!-- the gap between the reaction icons shown at top message box, it is the factor which will define the gap with standard width, to overlay the icons use factor value less than 1 and to show gap use factor value greater than 1  -->
+        <item name="chatReactionModerationFlagVisible">false
+        </item><!-- to show/hide the moderation flag icon with reaction panel -->
+        <item name="chatUserNameCustomFontPath">fonts/RingsideExtraWide-Book.otf
+        </item><!-- to set the font of the username of the sender ,it takes file from the asset folder -->
+        <item name="chatUserNameTextAllCaps">true
+        </item><!-- to make all the text of username as capital -->
+        <item name="chatUserNameTextSize">14sp</item><!-- set the textsize of username -->
+        <item name="chatMessageCustomFontPath">fonts/RingsideRegular-Book.otf
+        </item><!-- to set he custom font of message -->
+        <item name="chatMessageTextSize">16sp</item><!-- to set the textsize of message -->
+        <item name="chatMessageTimeTextSize">10sp
+        </item><!-- to update the textsize of the time of the message-->
+        <item name="chatMessageTimeCustomFontPath">fonts/RingsideRegular-Book.otf
+        </item><!-- to set the font of the time of the message -->
+        <item name="chatMessageTimeTextAllCaps">true
+        </item><!-- to make all text capital of time of message -->
+        <item name="chatMessageTimeTextColor">#000000
+        </item><!-- to udpate the textcolor of message time -->
+        <item name="chatReactionDisplayCountTextSize">10sp
+        </item><!-- to update the text size of the count of reactions in message -->
+        <item name="chatReactionDisplayCountCustomFontPath">fonts/RingsideExtraWide-Black.otf
+        </item><!-- to set the font of the reaction count of the message -->
+        <item name="chatReactionDisplayCountTextStyle">bold
+        </item><!-- to set the textstyle of the reaction count of the message -->
+        <item name="chatReactionDisplaySize">16dp
+        </item><!-- to update the size of the reaction icons -->
+        <item name="chatReactionPanelGravity">right|bottom
+        </item><!-- to set the gravity of the reaction panel w.r.t the message box -->
+        <item name="chatReactionPanelCountCustomFontPath">fonts/RingsideExtraWide-Black.otf
+        </item><!-- to set the font of count shown in reaction panel for every reaction -->
+        <item name="chatReactionPanelCountVisibleIfZero">false
+        </item><!-- to set the visibility of reaction count on Reaction panel if value is zero -->
+        <item name="chatMessageTimeTextLetterSpacing">0.1
+        </item><!--set the letter spacing of chat message time -->
+        <item name="chatMessageTextLetterSpacing">0.0
+        </item><!--set the letter spacing of chat message -->
+        <item name="chatUserNameTextLetterSpacing">0.0
+        </item><!--set the letter spacing of chat username -->
+
+        <!-- <item name="chatReactionMessageBubbleHighlightedBackground">@color/teal_200</item>  update the color of message bubble on selected-->
+        <!-- update the padding of the chat bubble -->
+
+        <!-- update the padding of send button -->
+
+
+    </style>
+
+
+    <style name="ActionItem">
+        <item name="android:textSize">@dimen/text_size</item>
+        <item name="android:drawablePadding">@dimen/drawable_padding</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/normal_padding</item>
+    </style>
+
+    <style name="ThemeOverlay.LiveLikeSDKDemo.FullscreenContainer" parent="">
+        <item name="fullscreenBackgroundColor">@color/light_blue_600</item>
+        <item name="fullscreenTextColor">@color/light_blue_A200</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <solid android:color="@color/livelike_image_slider_header_bg" />
+
+    <corners
+        android:topLeftRadius="@dimen/livelike_image_slider_corner_radius"
+        android:topRightRadius="@dimen/livelike_image_slider_corner_radius" />
+
+</shape>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LiveLikeSDK</string>
+    <string name="livelike_chat_input_hint">说些什么…</string>
+    <string name="point_tutorial_body">不断做出反应，以赚取更多积分并跻身排行榜榜首！</string>
+    <string name="points_tutorial_title">伟大的开始！</string>
+    <string name="flag_ui_title">一个问题？</string>
+    <string name="flag_ui_reporting_message">此消息已报告给主持人。谢谢。</string>
+    <string name="flag_ui_blocking_message">您将不再看到来自％s的消息。</string>
+    <string name="flag_ui_blocking_title">阻止此用户</string>
+    <string name="flag_ui_reporting_title">报告讯息</string>
+    <string name="chat_deleted_message_redacted">已编辑</string>
+    <string name="livelike_rank_label">秩</string>
+    <string name="badge_earned_congrats_message">恭喜！您只需获得一个新徽章！</string>
+    <string name="new_badge">新徽章！！！</string>
+    <string name="collect">收藏</string>
+    <string name="minigame_pick_a_side">MINIGAME挑选一面！</string>
+    <string name="sticker_keyboard">贴纸键盘</string>
+    <string name="recent_sticker">最近的贴纸</string>
+    <string name="reactions_panel_opened">反应面板打开</string>
+    <string name="you_can_add_reaction_hint">您可以在此处添加反应</string>
+    <string name="image">图片</string>
+    <string name="coins">硬币</string>
+    <string name="snap_to_live">活着</string>
+    <string name="user_image">用户图片</string>
+    <string name="report_message">报告讯息</string>
+    <string name="team_one">一队</string>
+    <string name="team_two">二队</string>
+    <string name="winner">优胜者</string>
+    <string name="livelike_chat_recent_stickers_empty_message">您尚未张贴任何贴纸。\n\n请张贴！</string>
+    <string name="livelike_chat_message_deleted_message">这个讯息已经被移除了。</string>
+    <string name="livelike_chat_alert_blocked_confirm">好</string>
+    <string name="livelike_chat_report_message_confirm">好</string>
+    <string name="send_message_failed_access_denied">"您无法发送消息 "</string>
+    <string name="livelike_vote_label">投票</string>
+    <string name="livelike_voted_label">投票了！</string>
+    <string name="livelike_mute_label">无声</string>
+    <string name="livelike_unmute_label">静音</string>
+    <string name="livelike_playback_error">无法播放此视频</string>
+    <string name="livelike_ama_input_prompt">输入一些东西</string>
+    <string name="livelike_ama_send_label">发送</string>
+    <string name="livelike_sponsored_by_label">赞助商</string>
+    <string name="livelike_poll_tag"> </string>
+    <string name="livelike_quiz_tag"> </string>
+    <string name="livelike_prediction_tag"> </string>
+    <string name="livelike_follow_up_tag"> </string>
+
+</resources>

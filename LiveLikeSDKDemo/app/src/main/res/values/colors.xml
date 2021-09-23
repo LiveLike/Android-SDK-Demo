@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="dark">#181818</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#1E2028</color>
+
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorGray">#747474</color>
+    <color name="background">#747474</color>
+
+    <color name="default_thumb_color">#ff6f00</color>
+    <color name="default_track_color">#c3a9a9a9</color>
+    <color name="green">#00FF00</color>
+    <color name="red">#FF0000</color>
+
+    <array name="default_index_gradient">
+        <item>@color/green</item>
+        <item>@color/red</item>
+    </array>
+
+    <array name="default_track_gradient">
+        <item>@color/default_track_color</item>
+    </array>
+
+    <color name="livelike_header_text_color">#FFFFFF</color>
+    <color name="livelike_default_text_color">#FFFFFF</color>
+
+    <color name="livelike_quiz_title_gradient_left">#213335</color>
+    <color name="livelike_quiz_title_gradient_right">#213335</color>
+    <color name="livelike_quiz_option_selected_border">#505760</color>
+    <color name="livelike_alert_background_color">#213335</color>
+
+    <color name="livelike_poll_bar_gradient_left">#E6429321</color>
+    <color name="livelike_poll_bar_gradient_right">#E6429321</color>
+    <color name="livelike_prediction_bar_gradient_left">#505760</color>
+    <color name="livelike_prediction_bar_gradient_right">#505760</color>
+    <color name="livelike_correct_bar_gradient_left">#E681CA00</color>
+    <color name="livelike_correct_bar_gradient_right">#E681CA00</color>
+    <color name="livelike_incorrect_bar_gradient_left">#66FFFFFF</color>
+    <color name="livelike_incorrect_bar_gradient_right">#66FFFFFF</color>
+    <color name="livelike_default_bar_gradient_left">#505760</color>
+    <color name="livelike_default_bar_gradient_right">#505760</color>
+    <color name="livelike_default_button_background_color">#213335</color>
+
+    <color name="livelike_poll_title_gradient_left">#213335</color>
+    <color name="livelike_poll_title_gradient_right">#213335</color>
+    <color name="livelike_poll_option_selected_border">#66FFFFFF</color>
+
+    <color name="livelike_neutral_option_border_color">#66FFFFFF</color>
+    <color name="livelike_incorrect_option_border_color">#66FFFFFF</color>
+    <color name="livelike_correct_option_border_color">#66FFFFFF</color>
+
+    <color name="livelike_default_title_gradient_left">#213335</color>
+    <color name="livelike_default_title_gradient_right">#213335</color>
+    <color name="livelike_image_slider_header_bg">#213335</color>
+    <color name="livelike_slider_background_color">#213335</color>
+    <color name="livelike_default_option_selected_border">#66FFFFFF</color>
+    <color name="livelike_alert_notification_label_gradient_right">#213335</color>
+    <color name="livelike_alert_notification_label_gradient_left">#213335</color>
+    <color name="livelike_cheer_meter_background_color">#213335</color>
+    <color name="livelike_cheer_meter_background_bottom_color">#213335</color>
+    <color name="livelike_social_embed_label_gradient_right">#213335</color>
+    <color name="livelike_social_embed_label_gradient_left">#213335</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="light_blue_A200">#FF40C4FF</color>
+    <color name="light_blue_A400">#FF00B0FF</color>
+    <color name="black_overlay">#66000000</color>
+
+    <color name="livelike_poll_background_color">#213335</color>
+    <color name="livelike_prediction_background_color">#213335</color>
+    <color name="livelike_quiz_background_color">#213335</color>
+
+</resources>

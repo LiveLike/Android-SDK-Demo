@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:defaultFocusHighlightEnabled="true"
+    android:focusable="true"
+    android:focusedByDefault="true"
+    android:importantForAccessibility="yes"
+    android:orientation="vertical"
+    android:screenReaderFocusable="true"
+    tools:background="@color/livelike_black">
+
+    <View
+        android:id="@+id/border_top"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/chat_constraint_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/chatBackground"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/img_chat_avatar"
+                android:layout_width="@dimen/livelike_chat_avatar_width"
+                android:layout_height="@dimen/livelike_chat_avatar_height"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="@dimen/livelike_chat_avatar_margin_left"
+                android:layout_marginTop="@dimen/livelike_chat_avatar_margin_top"
+                android:layout_marginRight="@dimen/livelike_chat_avatar_margin_right"
+                android:layout_marginBottom="@dimen/livelike_chat_avatar_margin_bottom"
+                android:contentDescription="@string/user_image"
+                android:visibility="gone"
+                tools:visibility="visible" />
+
+            <LinearLayout
+                android:id="@+id/chatBubbleBackground"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/livelike_chat_bubble_background_margin_left"
+                android:layout_marginTop="@dimen/livelike_chat_bubble_background_margin_top"
+                android:layout_marginRight="@dimen/livelike_chat_bubble_background_margin_right"
+                android:layout_marginBottom="@dimen/livelike_chat_bubble_background_margin_bottom"
+                android:animateLayoutChanges="@bool/livelike_chat_component_layout_transition_enabled"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/chat_nickname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="@color/livelike_default_chat_cell_name_color"
+                    android:textSize="@dimen/livelike_default_chat_cell_name_size"
+                    android:textStyle="bold"
+                    app:fontFamily="@font/livelike_chat_nickname_font"
+                    tools:ignore="HardcodedText"
+                    tools:text="asd" />
+
+                <TextView
+                    android:id="@+id/chatMessage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text=""
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/livelike_default_chat_cell_message_color"
+                    android:textSize="@dimen/livelike_default_chat_cell_text_size"
+                    app:fontFamily="@font/livelike_chat_message_font"
+                    tools:ignore="HardcodedText"
+                    tools:text="@tools:sample/lorem[30]" />
+
+                <TextView
+                    android:id="@+id/message_date_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/livelike_chat_message_date_time_margin_left"
+                    android:layout_marginTop="@dimen/livelike_chat_message_date_time_margin_top"
+                    android:layout_marginRight="@dimen/livelike_chat_message_date_time_margin_right"
+                    android:layout_marginBottom="@dimen/livelike_chat_message_date_time_margin_bottom"
+                    android:fontFamily="@font/livelike_chatMessage_timestamp_text_font"
+                    android:gravity="start"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/livelike_chatMessage_timestamp_text_color"
+                    android:textSize="@dimen/livelike_chat_message_date_time_text_size"
+                    android:visibility="gone"
+                    tools:text="Jan 13, 3:45 PM"
+                    tools:visibility="visible" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/rel_reactions_lay"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/livelike_reaction_height"
+            android:layout_marginLeft="@dimen/livelike_reaction_margin_left"
+            android:layout_marginTop="@dimen/livelike_reaction_margin_top"
+            android:layout_marginRight="@dimen/livelike_reaction_margin_right"
+            android:layout_marginBottom="@dimen/livelike_reaction_margin_bottom"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toStartOf="@+id/txt_chat_reactions_count"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/txt_chat_reactions_count"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/livelike_reaction_count_height"
+            android:layout_marginLeft="@dimen/livelike_reaction_count_margin_left"
+            android:layout_marginTop="@dimen/livelike_reaction_count_margin_top"
+            android:layout_marginRight="@dimen/livelike_reaction_count_margin_right"
+            android:layout_marginBottom="@dimen/livelike_reaction_count_margin_bottom"
+            android:gravity="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/livelike_reaction_count_text_size"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/chatBackground"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <View
+        android:id="@+id/border_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/text"
+    android:layout_width="48dp"
+    android:layout_height="56dp"
+    android:background="@drawable/ic_gold_badge"
+    android:paddingTop="20dp"
+    android:gravity="center_horizontal"
+    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+    android:textColor="@color/white"
+    tools:text="1" />

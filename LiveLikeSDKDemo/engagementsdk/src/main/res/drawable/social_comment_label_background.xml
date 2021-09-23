@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <gradient
+        android:angle="@integer/header_default_background_gradient_angle"
+        android:endColor="@color/livelike_social_embed_label_gradient_right"
+        android:startColor="@color/livelike_social_embed_label_gradient_left"
+        android:type="linear" />
+
+    <padding
+        android:bottom="@dimen/livelike_alert_notification_label_padding_bottom"
+        android:left="@dimen/livelike_alert_notification_label_padding_left"
+        android:right="@dimen/livelike_alert_notification_label_padding_right"
+        android:top="@dimen/livelike_alert_notification_label_padding_top" />
+    <corners
+        android:topLeftRadius="@dimen/livelike_button_corner_radius"
+        android:topRightRadius="@dimen/livelike_button_corner_radius" />
+
+</shape>

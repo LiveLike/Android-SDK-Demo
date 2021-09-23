@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">LiveLikeSDK</string>
+    <string name="livelike_chat_input_hint">Say Something…</string>
+    <string name="point_tutorial_body">Keep responding to earn more points and reach the top of the leaderboards!</string>
+    <string name="points_tutorial_title">GREAT START!</string>
+    <string name="flag_ui_title">A problem?</string>
+    <string name="flag_ui_reporting_message">This message has been reported to the moderators. Thank You.</string>
+    <string name="flag_ui_blocking_message">You will no longer see messages from: %s.</string>
+    <string name="flag_ui_blocking_title">Block this user</string>
+    <string name="flag_ui_reporting_title">Report message</string>
+    <string name="chat_deleted_message_redacted">Redacted</string>
+    <string name="livelike_rank_label">RANK</string>
+    <string name="badge_earned_congrats_message">Congrats! You just earn a new badge!</string>
+    <string name="new_badge">NEW BADGE!!!</string>
+    <string name="collect">Collect</string>
+    <string name="minigame_pick_a_side">MINIGAME-PICK A SIDE!</string>
+    <string name="sticker_keyboard">Sticker Keyboard</string>
+    <string name="recent_sticker">Recent Stickers</string>
+    <string name="reactions_panel_opened">Reactions panel opened</string>
+    <string name="you_can_add_reaction_hint">you can add reaction here</string>
+    <string name="image">Image</string>
+    <string name="coins">coins</string>
+    <string name="snap_to_live">snap to live</string>
+    <string name="user_image">user image</string>
+    <string name="report_message">Report Message</string>
+    <string name="team_one">team one</string>
+    <string name="team_two">team two</string>
+    <string name="winner">winner</string>
+    <string name="livelike_chat_recent_stickers_empty_message">You haven’t posted any stickers yet.\n\nGo post it!</string>
+    <string name="livelike_chat_message_deleted_message">This message has been removed.</string>
+    <string name="livelike_chat_alert_blocked_confirm">OK</string>
+    <string name="livelike_chat_report_message_confirm">OK</string>
+    <string name="send_message_failed_access_denied">You cannot send a message</string>
+    <string name="livelike_vote_label">Vote</string>
+    <string name="livelike_voted_label">Voted!</string>
+    <string name="livelike_mute_label">Mute</string>
+    <string name="livelike_unmute_label">Unmute</string>
+    <string name="livelike_playback_error">Can\'t play this video</string>
+
+    <string name="livelike_ama_input_prompt">Type something…</string>
+    <string name="livelike_ama_send_label">SEND</string>
+    <string name="livelike_sponsored_by_label">Sponsored By</string>
+
+    <string name="livelike_poll_tag"> </string>
+    <string name="livelike_quiz_tag"> </string>
+    <string name="livelike_prediction_tag"> </string>
+    <string name="livelike_follow_up_tag"> </string>
+</resources>

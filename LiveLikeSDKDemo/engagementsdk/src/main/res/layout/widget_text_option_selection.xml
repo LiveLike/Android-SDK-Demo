@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:animateLayoutChanges="@bool/livelike_widget_component_layout_transition_enabled">
+
+    <View
+        android:id="@+id/txtTitleBackground"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/header_rounded_corner_prediciton"
+        app:layout_constraintBottom_toBottomOf="@+id/titleView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.livelike.engagementsdk.widget.view.components.TagView
+        android:id="@+id/tagView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/tag_padding_start"
+        android:paddingEnd="@dimen/tag_padding_end"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:visibility="gone"
+        android:paddingTop="12dp"/>
+
+
+    <com.livelike.engagementsdk.widget.view.components.TitleView
+        android:id="@+id/titleView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingStart="16dp"
+        android:paddingTop="@dimen/title_padding_top"
+        android:paddingLeft="@dimen/title_padding_start"
+        android:paddingEnd="@dimen/title_padding_end"
+        android:paddingRight="@dimen/title_padding_right"
+        android:paddingBottom="@dimen/title_padding_bottom"
+        app:layout_constraintEnd_toStartOf="@+id/textEggTimer"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tagView" />
+
+    <com.livelike.engagementsdk.widget.view.components.EggTimerCloseButtonView
+        android:id="@+id/textEggTimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:visibility="visible"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/titleView"
+        app:layout_constraintEnd_toEndOf="parent"
+         />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lay_textRecyclerView">
+
+        <com.livelike.engagementsdk.widget.view.components.PointView
+            android:id="@+id/pointView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+
+        <com.livelike.engagementsdk.widget.view.components.ProgressionMeterView
+            android:id="@+id/progressionMeterView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pointView" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/lay_textRecyclerView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/answer_background_last_item"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleView">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/textRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hapticFeedbackEnabled="true"
+            android:orientation="vertical"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            tools:itemCount="4"
+            tools:listitem="@layout/atom_widget_image_item" />
+
+        <include
+            layout="@layout/common_lock_btn_lay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <com.livelike.engagementsdk.widget.view.components.ConfirmMessageView
+        android:id="@+id/confirmationMessage"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/lay_textRecyclerView"
+        app:layout_constraintEnd_toEndOf="@+id/lay_textRecyclerView"
+        app:layout_constraintStart_toStartOf="@+id/lay_textRecyclerView"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="gone" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/followupAnimation"
+        android:layout_width="300dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="false"
+        android:cropToPadding="false"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/lay_textRecyclerView"
+        app:layout_constraintEnd_toEndOf="@+id/lay_textRecyclerView"
+        app:layout_constraintStart_toStartOf="@+id/lay_textRecyclerView"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="invisible" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

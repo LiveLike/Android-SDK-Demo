@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/livelike_poll_background_color" />
+    <corners
+        android:bottomLeftRadius="@dimen/livelike_poll_corner_radius"
+        android:bottomRightRadius="@dimen/livelike_poll_corner_radius" />
+</shape>

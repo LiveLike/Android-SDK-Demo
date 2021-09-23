@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/timeline_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    >
+
+<androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/timeline_rv"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/livelike_time_line_bg"
+    android:orientation="vertical" />
+
+
+    <ProgressBar
+        android:id="@+id/loadingSpinnerTimeline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:visibility="gone"
+        android:indeterminate="true"
+        android:indeterminateTintMode="src_atop"
+        android:indeterminateTint="@color/livelike_chatMessage_timestamp_text_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/timeline_snap_live"
+        android:layout_width="@dimen/livelike_snap_live_width"
+        android:layout_height="@dimen/livelike_snap_live_height"
+        app:layout_constraintHorizontal_bias="@dimen/livelike_snap_live_horizontal_bias"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:visibility="gone"
+        android:translationY="50dp"
+        app:cardCornerRadius="@dimen/livelike_snap_live_radius"
+        app:cardElevation="@dimen/livelike_snap_live_elevation"
+        android:layout_marginStart="@dimen/livelike_snap_live_margin_start"
+        android:layout_marginLeft="@dimen/livelike_snap_live_margin_left"
+        android:layout_marginEnd="@dimen/livelike_snap_live_margin_end"
+        android:layout_marginRight="@dimen/livelike_snap_live_margin_right"
+        android:layout_marginBottom="@dimen/livelike_snap_live_margin_right"
+        tools:translationY="0dp"
+        tools:visibility="visible">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/livelike_transparent"
+            android:contentDescription="@string/snap_to_live"
+            android:scaleType="fitXY"
+            android:rotation="180"
+            app:tint="@color/livelike_snap_live_icon_color"
+            app:srcCompat="@drawable/ic_chat_ic_live" />
+
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

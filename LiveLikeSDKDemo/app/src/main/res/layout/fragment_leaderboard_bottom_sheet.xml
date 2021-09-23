@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="@color/dark"
+        android:layout_height="40dp">
+        <TextView
+            android:layout_weight="0.15"
+            android:text="#"
+            android:textColor="#66FFFFFF"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:layout_width="0dp"
+            android:paddingLeft="4dp"
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_height="wrap_content">
+        </TextView>
+        <TextView
+            android:layout_weight="0.65"
+            android:text="Username"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:textColor="#66FFFFFF"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_width="0dp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content">
+        </TextView>
+        <TextView
+            android:layout_weight="0.2"
+            android:text="PTS"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#66FFFFFF"
+            android:layout_width="0dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_height="wrap_content">
+        </TextView>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@drawable/divider"/>
+    <androidx.recyclerview.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/dark"
+        android:clipToPadding="false"
+        android:paddingTop="@dimen/list_item_spacing_half"
+        android:paddingBottom="@dimen/list_item_spacing_half"
+        tools:context=".ui.main.LeaderBoardEntryListDialogFragment"
+        tools:listitem="@layout/fragment_leaderboard_entry_item" />
+</androidx.appcompat.widget.LinearLayoutCompat>

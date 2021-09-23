@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LiveLikeSDK</string>
+    <string name="livelike_chat_input_hint">قل شيئا…</string>
+    <string name="point_tutorial_body">استمر في الرد لكسب المزيد من النقاط والوصول إلى قمة المتصدرين!</string>
+    <string name="points_tutorial_title">بداية عظيمة!</string>
+    <string name="flag_ui_title">مشكلة؟</string>
+    <string name="flag_ui_reporting_message">تم الإبلاغ عن هذه الرسالة إلى الوسطاء. شكرا لك.</string>
+    <string name="flag_ui_blocking_message">لن ترى رسائل بعد الآ %s </string>
+    <string name="flag_ui_blocking_title">منع هذا المستخدم</string>
+    <string name="flag_ui_reporting_title">الإبلاغ عن رسالة</string>
+    <string name="chat_deleted_message_redacted">منقح</string>
+    <string name="livelike_rank_label">مرتبة</string>
+    <string name="badge_earned_congrats_message">مبروك! لقد حصلت للتو على شارة جديدة!</string>
+    <string name="new_badge">شارة جديدة !!!</string>
+    <string name="collect">تجميع</string>
+    <string name="minigame_pick_a_side">MINIGAME - اختر جانبً !</string>
+    <string name="sticker_keyboard">لوحة المفاتيح اللاصقة</string>
+    <string name="recent_sticker">الملصقات الحديثة</string>
+    <string name="reactions_panel_opened">تم فتح لوحة ردود الفعل</string>
+    <string name="you_can_add_reaction_hint">يمكنك إضافة رد فعل هنا</string>
+    <string name="image">صورة</string>
+    <string name="coins">عملات معدنية</string>
+    <string name="snap_to_live">المفاجئة للعيش</string>
+    <string name="user_image">صورة المستخدم</string>
+    <string name="report_message">الإبلاغ عن رسالة</string>
+    <string name="team_one">الفريق الأول</string>
+    <string name="team_two">الفريق الثاني</string>
+    <string name="winner">الفائز</string>
+    <string name="livelike_chat_recent_stickers_empty_message">لم تنشر أي ملصقات بعد. \n\nانشرها!</string>
+    <string name="livelike_chat_message_deleted_message">تمت إزالة هذه الرسالة.</string>
+    <string name="livelike_chat_alert_blocked_confirm">حسنا</string>
+    <string name="livelike_chat_report_message_confirm">حسنا</string>
+    <string name="send_message_failed_access_denied">"لا يمكنك إرسال رسالة "</string>
+    <string name="livelike_vote_label">تصويت</string>
+    <string name="livelike_voted_label">تم التصويت!</string>
+    <string name="livelike_mute_label">أَسْكَتَ كَتَمَ</string>
+    <string name="livelike_unmute_label">إعادة الصوت</string>
+    <string name="livelike_playback_error">لا يمكن تشغيل هذا الفيديو</string>
+    <string name="livelike_ama_input_prompt">اطبع شيئا</string>
+    <string name="livelike_ama_send_label">يرسل</string>
+    <string name="livelike_sponsored_by_label">"برعاية "</string>
+    <string name="livelike_poll_tag"> </string>
+    <string name="livelike_quiz_tag"> </string>
+    <string name="livelike_prediction_tag"> </string>
+    <string name="livelike_follow_up_tag"> </string>
+</resources>

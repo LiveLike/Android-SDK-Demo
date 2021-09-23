@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/chat_input_background"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/bottomBarGradient"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/ic_chat_bottom_bar_gradient"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/edittext_chat_message"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <include
+        android:id="@+id/user_profile_display_LL"
+        layout="@layout/chat_user_profile_bar"
+        app:layout_constraintEnd_toStartOf="@+id/button_chat_send"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/chat_input_border"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="@dimen/livelike_chat_input_border_box_margin_start"
+        android:layout_marginLeft="@dimen/livelike_chat_input_border_box_margin_left"
+        android:layout_marginTop="@dimen/livelike_chat_input_border_box_margin_top"
+        android:layout_marginRight="@dimen/livelike_chat_input_border_box_margin_right"
+        android:background="@drawable/ic_chat_input"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/edittext_chat_message"
+        app:layout_constraintEnd_toStartOf="@+id/button_chat_send"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/user_profile_display_LL" />
+
+    <com.livelike.engagementsdk.chat.RichContentEditText
+        android:id="@+id/edittext_chat_message"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:focusable="true"
+        android:hint="@string/livelike_chat_input_hint"
+        android:imeOptions="flagNoExtractUi"
+        android:importantForAccessibility="yes"
+        android:importantForAutofill="no"
+        android:maxLength="250"
+        android:maxLines="3"
+        android:minHeight="40dp"
+        android:paddingStart="@dimen/livelike_chat_input_padding_start"
+        android:paddingLeft="@dimen/livelike_chat_input_padding_left"
+        android:paddingEnd="@dimen/livelike_chat_input_padding_end"
+        android:paddingRight="@dimen/livelike_chat_input_padding_right"
+        android:screenReaderFocusable="true"
+        android:textColor="@color/livelike_chat_input_text_color"
+        android:textColorHint="@color/livelike_chat_input_text_color"
+        android:textSize="@dimen/livelike_default_chat_input_text_size"
+        app:layout_constraintEnd_toStartOf="@+id/button_emoji"
+        app:layout_constraintStart_toStartOf="@+id/chat_input_border"
+        app:layout_constraintTop_toTopOf="@+id/chat_input_border"
+        tools:targetApi="o" />
+
+    <ImageButton
+        android:id="@+id/button_emoji"
+        android:layout_width="@dimen/livelike_chat_input_sticker_icon_width"
+        android:layout_height="@dimen/livelike_chat_input_sticker_icon_height"
+        android:layout_gravity="bottom"
+        android:layout_marginEnd="@dimen/livelike_chat_input_sticker_icon_margin_end"
+        android:layout_marginRight="@dimen/livelike_chat_input_sticker_icon_margin_right"
+        android:layout_marginTop="@dimen/livelike_chat_input_sticker_icon_margin_top"
+        android:layout_marginBottom="@dimen/livelike_chat_input_sticker_icon_margin_bottom"
+        android:background="@null"
+        android:contentDescription="@string/sticker_keyboard"
+        android:padding="@dimen/livelike_chat_input_sticker_icon_padding"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/chat_input_border"
+        app:layout_constraintEnd_toEndOf="@+id/chat_input_border"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/chat_input_border"
+        app:layout_constraintTop_toTopOf="@+id/chat_input_border"
+        app:srcCompat="@drawable/ic_chat_emoji_ios_category_smileysandpeople"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/button_chat_send"
+        android:layout_width="@dimen/livelike_chat_input_send_button_width"
+        android:layout_height="@dimen/livelike_chat_input_send_button_height"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="@dimen/livelike_chat_input_send_button_margin_left"
+        android:background="@null"
+        android:contentDescription="@string/livelike_chat_input_hint"
+        android:gravity="center"
+        android:paddingLeft="@dimen/livelike_chat_input_send_button_padding_left"
+        android:paddingTop="@dimen/livelike_chat_input_send_button_padding_top"
+        android:paddingRight="@dimen/livelike_chat_input_send_button_padding_right"
+        android:paddingBottom="@dimen/livelike_chat_input_send_button_padding_bottom"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_chat_send"
+        android:textColor="#ffffff"
+        android:textSize="14sp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/chat_input_border"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/chat_input_border" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

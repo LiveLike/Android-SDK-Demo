@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    tools:background="@drawable/livelike_rounded_solid_backgound">
+
+    <FrameLayout
+        android:id="@+id/progression_meter_container"
+        android:layout_width="115dp"
+        android:layout_height="30dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <View
+            android:layout_width="100dp"
+            android:layout_height="16dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/livelike_rounded_solid_backgound" />
+
+
+        <View
+            android:id="@+id/progression_meter_progress_view"
+            android:layout_width="50dp"
+            android:layout_height="16dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/livelike_progression_meter_indicator" />
+
+        <TextView
+            android:id="@+id/progression_meter_text"
+            style="@style/livelike_extra_small_text_style"
+            android:layout_width="100dp"
+            android:layout_height="16dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:textColor="@color/livelike_white"
+            tools:text="150/300" />
+
+
+        <ImageView
+            android:id="@+id/gamification_badge_iv"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="end"
+            tools:src="@drawable/coin" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/new_badge_label"
+        style="@style/livelike_small_text_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/new_badge"
+        android:textColor="#ffffff"
+        android:visibility="gone"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/progression_meter_container"
+        tools:background="@color/livelike_black" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">LiveLike SDK Demo</string>
+    <string name="tab_text_1">LIVE CHAT</string>
+    <string name="tab_text_2">INFLUENCER</string>
+    <string name="tab_text_3">TIMELINE</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <!-- -
+    This is an ad unit ID for a banner test ad. Replace with your own banner ad unit id.
+    For more information, see https://support.google.com/admob/answer/3052638
+<!- -->
+    <string name="banner_ad_unit_id">YOUR_BANNER_AD_UNIT_ID</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="action_share">Share</string>
+    <string name="action_upload">Upload</string>
+    <string name="action_copy">Copy</string>
+    <string name="action_print">Print</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="ok">Ok</string>
+</resources>

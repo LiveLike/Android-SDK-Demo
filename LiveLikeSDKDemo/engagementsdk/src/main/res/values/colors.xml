@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="livelike_white">#ffffff</color>
+    <color name="livelike_black">#000000</color>
+    <color name="livelike_colorPrimary">#32373c</color>
+    <color name="livelike_colorPrimaryDark">#99000000</color>
+    <color name="livelike_transparent">#00000000</color>
+    <color name="livelike_colorAccent">#FFFFFF</color>
+
+    <color name="livelike_default_chat_cell_name_color">#66ffffff</color>
+    <color name="livelike_default_chat_cell_message_color">#dfdfdf</color>
+    <color name="livelike_default_button_background_color">#60000000</color>
+    <color name="livelike_poll_background_color">#000000</color>
+    <color name="livelike_prediction_background_color">#000000</color>
+    <color name="livelike_quiz_background_color">#000000</color>
+    <color name="livelike_chat_background_start_color">#212121</color>
+    <color name="livelike_chat_input_text_color">@color/livelike_white</color>
+    <color name="livelike_chat_input_background_color">#66000000</color>
+    <color name="livelike_chat_input_border_color">#33ffffff</color>
+    <color name="livelike_chat_background_end_color">#424242</color>
+    <color name="livelike_chat_rounded_rect_color">#66000000</color>
+    <color name="livelike_openChatNicknameOther">#7b8391</color>
+    <color name="livelike_openChatNicknameMe">#00BCD4</color>
+
+    <color name="livelike_live_button_background_color">#FFF</color>
+    <color name="livelike_live_button_arrow_color">#23282D</color>
+
+    <color name="livelike_default_background_color">#99000000</color>
+    <color name="livelike_default_text_color">#ffffff</color>
+    <color name="livelike_header_text_color">@color/livelike_default_text_color</color>
+    <color name="livelike_option_text_color">@color/livelike_default_text_color</color>
+    <color name="livelike_percent_label_text_color">@color/livelike_default_text_color</color>
+    <color name="livelike_alert_body_text_color">@color/livelike_default_text_color</color>
+    <color name="livelike_alert_link_text_color">@color/livelike_default_text_color</color>
+    <color name="livelike_widget_tag_text_color">#ABABAB</color>
+
+    <color name="livelike_alert_background_gradient_left">#282828</color>
+    <color name="livelike_alert_background_gradient_right">#121212</color>
+    <color name="livelike_alert_notification_label_gradient_left">#9f041b</color>
+    <color name="livelike_alert_notification_label_gradient_right">#f5515f</color>
+    <color name="livelike_alert_label_background_shadow">#000000</color>
+    <color name="livelike_alert_link_background_color">@android:color/transparent</color>
+
+    <color name="livelike_social_embed_label_gradient_right">#f5515f</color>
+    <color name="livelike_social_embed_label_gradient_left">#9f041b</color>
+
+    <color name="livelike_default_title_gradient_left">#003264</color>
+    <color name="livelike_default_title_gradient_right">#0096c8</color>
+    <color name="livelike_default_option_selected_border">#00b4c8</color>
+
+    <color name="livelike_prediction_title_gradient_left">
+        @color/livelike_default_title_gradient_left
+    </color>
+    <color name="livelike_prediction_title_gradient_right">
+        @color/livelike_default_title_gradient_right
+    </color>
+    <color name="livelike_prediction_option_selected_border">
+        @color/livelike_default_option_selected_border
+    </color>
+    <color name="livelike_prediction_image_option_selected_border">
+        @color/livelike_prediction_option_selected_border
+    </color>
+
+    <color name="livelike_quiz_title_gradient_left">#f76b1c</color>
+    <color name="livelike_quiz_title_gradient_right">#ffb400</color>
+    <color name="livelike_quiz_option_selected_border">#ffc800</color>
+
+    <color name="livelike_poll_title_gradient_left">#3023ae</color>
+    <color name="livelike_poll_title_gradient_right">#c864c8</color>
+    <color name="livelike_poll_option_selected_border">#c86dd7</color>
+
+    <color name="livelike_neutral_option_border_color">#99000000</color>
+    <color name="livelike_incorrect_option_border_color">#c8000d</color>
+    <color name="livelike_correct_option_border_color">#00c83c</color>
+
+    <color name="livelike_default_bar_gradient_left">#33ffffff</color>
+    <color name="livelike_default_bar_gradient_right">#33ffffff</color>
+    <color name="livelike_quiz_bar_gradient_left">@color/livelike_default_bar_gradient_left</color>
+    <color name="livelike_quiz_bar_gradient_right">@color/livelike_default_bar_gradient_right
+    </color>
+    <color name="livelike_poll_bar_gradient_left">#e69650be</color>
+    <color name="livelike_poll_bar_gradient_right">#e6c864c8</color>
+    <color name="livelike_prediction_bar_gradient_left">#e69650be</color>
+    <color name="livelike_prediction_bar_gradient_right">#e6c864c8</color>
+    <color name="livelike_correct_bar_gradient_left">#e681ca00</color>
+    <color name="livelike_correct_bar_gradient_right">#e6429321</color>
+    <color name="livelike_incorrect_bar_gradient_left">#e6dc0028</color>
+    <color name="livelike_incorrect_bar_gradient_right">#e6d0021b</color>
+    <color name="livelike_neutral_bar_gradient_left">@color/livelike_default_bar_gradient_left
+    </color>
+    <color name="livelike_neutral_bar_gradient_right">@color/livelike_default_bar_gradient_right
+    </color>
+
+    <color name="livelike_video_alert_body_text_color">@color/livelike_default_text_color</color>
+    <color name="livelike_video_alert_link_text_color">@color/livelike_default_text_color</color>
+
+    <!--  Gamification -->
+    <color name="livelike_rank_label_text_color">#fff000</color>
+    <color name="livelike_rank_label_gradient_right">#4b28b4</color>
+    <color name="livelike_rank_label_gradient_left">#6928b4</color>
+    <color name="livelike_cheer_meter_background_color">#000000</color>
+    <color name="livelike_cheer_meter_title_color">#FFFFFF</color>
+    <color name="cheer_meter_team2_color">#a00028</color>
+    <color name="cheer_meter_team2_color2">#fa5064</color>
+    <color name="cheer_meter_team1_color">#2828b4</color>
+    <color name="cheer_meter_team1_color2">#50a0fa</color>
+    <!--Image Slider-->
+    <color name="livelike_image_slider_gradient_start">#fff000</color>
+    <color name="livelike_image_slider_gradient_end">#a0ff28</color>
+    <color name="livelike_image_slider_bg">#ffffff</color>
+    <color name="livelike_image_slider_widget_bg">#000000</color>
+    <color name="livelike_image_slider_header_bg">#000000</color>
+    <color name="livelike_image_slider_widget_result_end_color">#3C1EFF</color>
+    <color name="livelike_image_slider_widget_result_center_color">#FF2D2D</color>
+    <color name="livelike_sticker_recent_empty_text_color">#66ffffff</color>
+    <color name="livelike_chatMessage_timestamp_text_color">#666666</color>
+    <color name="livelike_chatMessage_link_text_color">#0177CC</color>
+
+    <color name="livelike_alert_background_color">#000000</color>
+    <color name="livelike_video_alert_volume_background_color">#66ffffff</color>
+    <color name="livelike_social_background_color">#000000</color>
+    <color name="livelike_slider_background_color">#000000</color>
+    <color name="chat_bottom_bar_gradient_end_color">#00000000</color>
+    <color name="chat_bottom_bar_gradient_start_color">#000000</color>
+    <color name="ripple_effect_team1_mask_color">#802828b4</color>
+    <color name="ripple_effect_team1_color">#802828b4</color>
+    <color name="ripple_effect_team1_stroke_color">#50a0fa</color>
+    <color name="ripple_effect_team2_color">#80F70404</color>
+    <color name="ripple_effect_team2_stroke_color">#F70404</color>
+    <color name="ripple_effect_team2_mask_color">#80F70404</color>
+    <color name="livelike_sticker_keyboard_tab_background_color">#282828</color>
+    <color name="livelike_sticker_keyboard_tab_indicator_color">#D1D1D1</color>
+    <color name="livelike_sticker_keyboard_empty_text_color">#66ffffff</color>
+    <color name="livelike_snap_live_color">#FFF</color>
+    <color name="livelike_snap_live_icon_color">#000</color>
+    <color name="livelike_chat_reaction_selected_background_color">#33000000</color>
+    <color name="txt_cheer_meter_team_1_color">#FFFFFF</color>
+    <color name="txt_cheer_meter_team_2_color">#ffffff</color>
+    <color name="livelike_cheer_meter_background_bottom_color">#000000</color>
+    <color name="livelike_vote_btn_color">#800080</color>
+    <color name="livelike_vote_btn_color_pressed">#AA800080</color>
+    <color name="livelike_video_alert_link_background_color">#222426</color>
+    <color name="livelike_video_loader_color">#ffffff</color>
+    <color name="livelike_send_btn_color">#545454</color>
+    <color name="livelike_ama_input_box_color">#282828</color>
+    <color name="livelike_ama_input_box_hint_color">#ababab</color>
+    <color name="livelike_ama_send_button_inactive_text_color">#ababab</color>
+    <color name="livelike_ama_send_button_active_text_color">#000000</color>
+    <color name="livelike_ama_confirmation_msg_text_color">#00f078</color>
+    <color name="livelike_sponsor_container_background">#000000</color>
+    <color name="livelike_sponsor_label_text_color">#ffffff</color>
+
+</resources>

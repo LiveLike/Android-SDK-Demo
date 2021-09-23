@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--All resources in a library default to public. To make all resources implicitly private, you must define at least one specific attribute as public.-->
+    <public/>
+
+
+    <public name="livelike_chat_component_layout_transition_enabled" type = "bool"/>
+    <public name="livelike_widget_component_layout_transition_enabled" type = "bool"/>
+
+</resources>

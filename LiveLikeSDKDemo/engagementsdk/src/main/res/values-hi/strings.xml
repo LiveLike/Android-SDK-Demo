@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LiveLikeSDK</string>
+    <string name="livelike_chat_input_hint">कुछ कहें…</string>
+    <string name="point_tutorial_body">अधिक अंक अर्जित करने और लीडरबोर्ड के शीर्ष पर पहुंचने के लिए प्रतिक्रिया देते रहें!</string>
+    <string name="points_tutorial_title">महान शुरू करो!</string>
+    <string name="flag_ui_title">एक समस्या?</string>
+    <string name="flag_ui_reporting_message">यह संदेश मध्यस्थों को सूचित किया गया है। धन्यवाद।</string>
+    <string name="flag_ui_blocking_message">अब आप संदेश: %s से नहीं देखेंगे।</string>
+    <string name="flag_ui_blocking_title">इस उपयोगकर्ता को ब्लॉक करें</string>
+    <string name="flag_ui_reporting_title">रिपोर्ट संदेश</string>
+    <string name="chat_deleted_message_redacted">संशोधित</string>
+    <string name="livelike_rank_label">पद</string>
+    <string name="badge_earned_congrats_message">बधाई! तुम सिर्फ एक नया बिल्ला कमाओ!</string>
+    <string name="new_badge">नई बात !!!</string>
+    <string name="collect">कलेक्ट</string>
+    <string name="minigame_pick_a_side">MINIGAME-PICK A SIDE!</string>
+    <string name="sticker_keyboard">स्टिकर कीबोर्ड</string>
+    <string name="recent_sticker">हाल ही में स्टिकर</string>
+    <string name="reactions_panel_opened">प्रतिक्रिया पैनल खोला</string>
+    <string name="you_can_add_reaction_hint">आप यहाँ प्रतिक्रिया जोड़ सकते हैं</string>
+    <string name="image">छवि</string>
+    <string name="coins">सिक्के</string>
+    <string name="snap_to_live">जीने के लिए तस्वीर</string>
+    <string name="user_image">उपयोगकर्ता की छवि</string>
+    <string name="report_message">रिपोर्ट संदेश</string>
+    <string name="team_one">टीम एक</string>
+    <string name="team_two">टीम दो</string>
+    <string name="winner">विजेता</string>
+    <string name="livelike_chat_recent_stickers_empty_message">आपने अभी तक कोई स्टिकर पोस्ट नहीं किया है। \N \nइसे पोस्ट करें!</string>
+    <string name="livelike_chat_message_deleted_message">यह संदेश हटा दिया गया है।</string>
+    <string name="livelike_chat_alert_blocked_confirm">ठीक</string>
+    <string name="livelike_chat_report_message_confirm">ठीक</string>
+    <string name="send_message_failed_access_denied">"आप एक संदेश नहीं भेज सकते "</string>
+    <string name="livelike_vote_label">वोट</string>
+    <string name="livelike_voted_label">मतदान किया!</string>
+    <string name="livelike_mute_label">म्यूट</string>
+    <string name="livelike_unmute_label">अनम्यूट</string>
+    <string name="livelike_playback_error">इस वीडियो को नहीं चला सकते</string>
+    <string name="livelike_ama_input_prompt">कुछ लिखें</string>
+    <string name="livelike_ama_send_label">भेजना</string>
+    <string name="livelike_sponsored_by_label">" द्वारा प्रायोजित"</string>
+    <string name="livelike_poll_tag"> </string>
+    <string name="livelike_quiz_tag"> </string>
+    <string name="livelike_prediction_tag"> </string>
+    <string name="livelike_follow_up_tag"> </string>
+</resources>

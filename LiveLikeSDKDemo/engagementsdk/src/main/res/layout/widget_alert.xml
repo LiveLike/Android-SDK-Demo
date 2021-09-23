@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/alertWidget"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!--suppress AndroidDomInspection -->
+    <TextView
+        android:id="@+id/labelText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/alert_notification_label_background"
+        android:fontFamily="@font/livelike_alert_label_font"
+        android:maxLength="@integer/alert_label_text_max_length"
+        android:paddingLeft="@dimen/alert_title_padding_left"
+        android:paddingRight="@dimen/alert_title_padding_right"
+        android:textAllCaps="true"
+        android:textColor="@color/livelike_header_text_color"
+        android:textSize="@dimen/livelike_alert_label_text_size"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="DEAL" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/widgetContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="@bool/livelike_widget_component_layout_transition_enabled"
+        android:background="@drawable/alert_rounded_corner_with_background"
+        app:layout_constraintTop_toBottomOf="@+id/labelText">
+
+        <ImageView
+            android:id="@+id/bodyImage"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:animateLayoutChanges="@bool/livelike_widget_component_layout_transition_enabled"
+            android:contentDescription="@string/image"
+            android:scaleType="centerCrop"
+            android:visibility="visible"
+            app:layout_constraintBottom_toTopOf="@+id/linkBackground"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/bodyText"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:src="@tools:sample/backgrounds/scenic" />
+
+        <!--suppress AndroidDomInspection -->
+        <TextView
+            android:id="@+id/bodyText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/livelike_body_text_margin_left"
+            android:layout_marginTop="@dimen/livelike_body_text_margin_top"
+            android:layout_marginRight="@dimen/livelike_body_text_margin_right"
+            android:layout_marginBottom="@dimen/livelike_body_text_margin_bottom"
+            android:fontFamily="@font/livelike_alert_body_font"
+            android:textColor="@color/livelike_alert_body_text_color"
+            android:textSize="@dimen/livelike_alert_body_text_size"
+            android:visibility="visible"
+            app:layout_constraintBottom_toTopOf="@+id/linkBackground"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Lorem ipsume" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/linkBackground"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/livelike_link_background_margin_top"
+            android:animateLayoutChanges="@bool/livelike_widget_component_layout_transition_enabled"
+            android:background="@color/livelike_alert_link_background_color"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0">
+
+            <View
+                android:id="@+id/linkArrow"
+                android:layout_width="8dp"
+                android:layout_height="10dp"
+                android:layout_marginRight="@dimen/livelike_link_arrow_margin_right"
+                android:animateLayoutChanges="@bool/livelike_widget_component_layout_transition_enabled"
+                android:background="@drawable/alert_ic_arrow"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <!--suppress AndroidDomInspection -->
+            <TextView
+                android:id="@+id/linkText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/livelike_alert_link_text_margin_left"
+                android:layout_marginTop="@dimen/livelike_alert_link_text_margin_top"
+                android:layout_marginEnd="@dimen/livelike_alert_link_text_margin_bottom"
+                android:layout_marginRight="@dimen/livelike_alert_link_text_margin_right"
+                android:layout_marginBottom="@dimen/livelike_alert_link_text_margin_bottom"
+                android:fontFamily="@font/livelike_alert_link_font"
+                android:paddingTop="@dimen/livelike_alert_link_padding_top"
+                android:paddingBottom="@dimen/livelike_alert_link_padding_bottom"
+                android:text="Coupons"
+                android:textColor="@color/livelike_alert_link_text_color"
+                android:textSize="@dimen/livelike_alert_link_text_size"
+                android:textStyle="bold"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/linkArrow"
+                app:layout_constraintRight_toLeftOf="@+id/linkArrow"
+                app:layout_constraintStart_toStartOf="parent"
+
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

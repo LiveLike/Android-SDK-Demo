@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="prediction_widget_question_trigger_time_in_milliseconds">2000</integer>
+    <integer name="prediction_widget_followup_trigger_time_in_milliseconds">13000</integer>
+    <integer name="prediction_widget_follow_transition_out_in_milliseconds">10000</integer>
+
+    <integer name="percent_bar_gradient_angle">45</integer>
+    <integer name="header_gradient_angle">45</integer>
+    <integer name="header_default_background_gradient_angle">0</integer>
+    <integer name="image_option_gradient_angle">-90</integer>
+    <integer name="image_option_percent_bar_gradient_angle">0</integer>
+    <integer name="livelike_chat_background_gradient_angle">90</integer>
+    <integer name="cheer_meter_team1_gradient_angle">0</integer>
+    <integer name="cheer_meter_team2_gradient_angle">0</integer>
+    <integer name="chat_bottom_bar_gradient_angle">-90</integer>
+    <integer name="alert_label_text_max_length">50</integer>
+</resources>

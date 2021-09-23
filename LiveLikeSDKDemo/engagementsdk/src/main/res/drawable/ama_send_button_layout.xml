@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item  android:state_enabled="true">
+        <shape>
+            <corners android:radius="@dimen/livelike_ama_send_btn_radius" />
+            <solid android:color="@color/livelike_white" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <corners android:radius="@dimen/livelike_vote_btn_radius" />
+            <solid android:color="@color/livelike_send_btn_color" />
+        </shape>
+    </item>
+</selector>

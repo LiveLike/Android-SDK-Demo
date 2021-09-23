@@ -1,0 +1,359 @@
+{
+  "version": 1,
+  "widgets": {
+    "alert": {
+      "header": {
+        "background": {
+          "format": "uniform-gradient",
+          "colors": [
+            [
+              159,
+              4,
+              27
+            ],
+            [
+              245,
+              81,
+              95
+            ]
+          ]
+        }
+      },
+      "footer": {}
+    },
+    "image-poll": {
+      "header": {
+        "background": {
+          "format": "uniform-gradient",
+          "colors": [
+            [
+              48,
+              35,
+              174
+            ],
+            [
+              200,
+              109,
+              215
+            ]
+          ]
+        }
+      },
+      "selected-option": {
+        "border-color": [
+          200,
+          109,
+          215
+        ]
+      },
+      "selected-option-bar": {
+        "background": {
+          "format": "uniform-gradient",
+          "colors": [
+            [
+              48,
+              35,
+              174
+            ],
+            [
+              200,
+              109,
+              215
+            ]
+          ]
+        }
+      }
+    },
+    "image-quiz": {
+      "header": {
+        "background": {
+          "format": "uniform-gradient",
+          "colors": [
+            [
+              247,
+              107,
+              28
+            ],
+            [
+              255,
+              180,
+              0
+            ]
+          ]
+        }
+      },
+      "selected-option": {
+        "border-color": [
+          255,
+          180,
+          0
+        ]
+      },
+      "selected-option-bar": {
+        "background": {
+          "format": "uniform-gradient",
+          "colors": [
+            [
+              247,
+              107,
+              28
+            ],
+            [
+              255,
+              180,
+              0
+            ]
+          ]
+        }
+      },
+      "correct-option": {
+        "border-color": [
+          129,
+          202,
+          0
+        ]
+      },
+      "correct-option-bar": {
+        "background": {
+          "format": "uniform-gradient",
+          "colors": [
+            [
+              66,
+              147,
+              33
+            ],
+            [
+              129,
+              202,
+              0
+            ]
+          ]
+        }
+      },
+      "incorrect-option": {
+        "border-color": [
+          220,
+          0,
+          40
+        ]
+      },
+      "incorrect-option-bar": {
+        "background": {
+          "format": "uniform-gradient",
+          "colors": [
+            [
+              208,
+              2,
+              27
+            ],
+            [
+              220,
+              0,
+              40
+            ]
+          ]
+        }
+      }
+    },
+    "image-prediction": {
+      "header": {
+        "background": {
+          "format": "uniform-gradient",
+          "colors": [
+            [
+              0,
+              50,
+              100
+            ],
+            [
+              0,
+              150,
+              200
+            ]
+          ]
+        }
+      },
+      "selected-option": {
+        "border-color": [
+          0,
+          150,
+          200
+        ]
+      },
+      "selected-option-bar": {
+        "background": {
+          "format": "uniform-gradient",
+          "colors": [
+            [
+              0,
+              50,
+              100
+            ],
+            [
+              0,
+              150,
+              200
+            ]
+          ]
+        }
+      }
+    },
+    "image-prediction-follow-up": {
+      "header": {
+        "background": {
+          "format": "uniform-gradient",
+          "colors": [
+            [
+              0,
+              50,
+              100
+            ],
+            [
+              0,
+              150,
+              200
+            ]
+          ]
+        }
+      },
+      "selected-option": {
+        "border-color": [
+          0,
+          150,
+          200
+        ]
+      },
+      "selected-option-bar": {
+        "background": {
+          "format": "uniform-gradient",
+          "colors": [
+            [
+              0,
+              50,
+              100
+            ],
+            [
+              0,
+              150,
+              200
+            ]
+          ]
+        }
+      },
+      "correct-option": {
+        "border-color": [
+          129,
+          202,
+          0
+        ]
+      },
+      "correct-option-bar": {
+        "background": {
+          "format": "uniform-gradient",
+          "colors": [
+            [
+              66,
+              147,
+              33
+            ],
+            [
+              129,
+              202,
+              0
+            ]
+          ]
+        }
+      },
+      "incorrect-option": {
+        "border-color": [
+          220,
+          0,
+          40
+        ]
+      },
+      "incorrect-option-bar": {
+        "background": {
+          "format": "uniform-gradient",
+          "colors": [
+            [
+              208,
+              2,
+              27
+            ],
+            [
+              220,
+              0,
+              40
+            ]
+          ]
+        }
+      }
+    },
+    "image-slider": {
+      "track": {
+        "hot-color": [
+          255,
+          45,
+          45
+        ],
+        "cold-color": [
+          60,
+          30,
+          255
+        ]
+      },
+      "marker": {
+        "background": {
+          "format": "fill",
+          "color": [
+            255,
+            45,
+            45
+          ]
+        },
+        "border-color": [
+          255,
+          255,
+          255
+        ],
+        "border-width": 3
+      }
+    },
+    "cheer-meter": {
+      "home-bar": {
+        "background": {
+          "format": "uniform-gradient",
+          "colors": [
+            [
+              48,
+              35,
+              174
+            ],
+            [
+              83,
+              160,
+              253
+            ]
+          ]
+        }
+      },
+      "away-bar": {
+        "background": {
+          "format": "uniform-gradient",
+          "colors": [
+            [
+              159,
+              4,
+              27
+            ],
+            [
+              245,
+              81,
+              95
+            ]
+          ]
+        }
+      }
+    }
+  }
+}

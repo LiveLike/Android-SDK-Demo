@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/chat_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="@bool/livelike_chat_component_layout_transition_enabled">
+
+    <include
+        android:id="@+id/chatInput"
+        layout="@layout/chat_input"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="@dimen/livelike_chat_input_box_margin_left"
+        android:layout_marginTop="@dimen/livelike_chat_input_box_margin_top"
+        android:layout_marginRight="@dimen/livelike_chat_input_box_margin_right"
+        android:layout_marginBottom="@dimen/livelike_chat_input_box_margin_bottom"
+        app:layout_constraintBottom_toTopOf="@id/sticker_keyboard"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <FrameLayout
+        android:id="@+id/chatdisplayBack"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/chatInput"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:id="@+id/swipeToRefresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/chatdisplay"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="@null"
+                android:dividerHeight="0dp"
+                android:stackFromBottom="true"
+                android:transcriptMode="normal"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                tools:listitem="@layout/default_chat_cell" />
+
+
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+
+    </FrameLayout>
+
+    <ProgressBar
+        android:id="@+id/loadingSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/snap_live"
+        android:layout_width="@dimen/livelike_snap_live_width"
+        android:layout_height="@dimen/livelike_snap_live_height"
+        android:layout_marginStart="@dimen/livelike_snap_live_margin_start"
+        android:layout_marginLeft="@dimen/livelike_snap_live_margin_left"
+        android:layout_marginEnd="@dimen/livelike_snap_live_margin_end"
+        android:layout_marginRight="@dimen/livelike_snap_live_margin_right"
+        android:layout_marginBottom="@dimen/livelike_snap_live_margin_bottom"
+        android:alpha="0"
+        android:translationY="50dp"
+        android:visibility="gone"
+        app:cardBackgroundColor="@color/livelike_snap_live_color"
+        app:cardCornerRadius="@dimen/livelike_snap_live_radius"
+        app:cardElevation="@dimen/livelike_snap_live_elevation"
+        app:layout_constraintBottom_toTopOf="@id/chatInput"
+        app:layout_constraintEnd_toEndOf="@id/chatdisplayBack"
+        app:layout_constraintHorizontal_bias="@dimen/livelike_snap_live_horizontal_bias"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:alpha="1"
+        tools:translationY="0dp"
+        tools:visibility="visible">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/livelike_transparent"
+            android:contentDescription="@string/snap_to_live"
+            android:scaleType="fitXY"
+            app:tint="@color/livelike_snap_live_icon_color"
+            app:srcCompat="@drawable/ic_chat_ic_live" />
+    </androidx.cardview.widget.CardView>
+
+    <com.livelike.engagementsdk.chat.stickerKeyboard.StickerKeyboardView
+        android:id="@+id/sticker_keyboard"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/livelike_sticker_keyboard_height"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

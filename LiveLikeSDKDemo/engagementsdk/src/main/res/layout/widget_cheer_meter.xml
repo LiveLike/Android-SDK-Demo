@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:id="@+id/lay_cheer_meter_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cheer_meter_rounded_corner_black_background"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="@dimen/livelike_cheer_meter_padding">
+
+            <!--            <ImageView-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                app:srcCompat="@drawable/ic_cheer_meter_minigame" />-->
+
+            <TextView
+                android:id="@+id/txt_cheer_meter_title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="@dimen/cheer_meter_title_padding"
+                android:text="@string/minigame_pick_a_side"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead.Inverse"
+                android:textColor="@color/livelike_cheer_meter_title_color"
+                android:textStyle="bold" />
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <com.livelike.engagementsdk.widget.view.components.EggTimerCloseButtonView
+                    android:id="@+id/textEggTimer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp"
+                    android:visibility="visible" />
+
+            </FrameLayout>
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/lay_cheer_meter_background"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/cheer_meter_rounded_corner_black_background_bottom">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <View
+                    android:id="@+id/view_ripple"
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="left"
+                    android:layout_weight="1"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/ripple_effect_team_1"
+                    android:clickable="true"
+                    android:focusable="true" />
+
+                <View
+                    android:id="@+id/view_ripple2"
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="right"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/ripple_effect_team_2"
+                    android:clickable="true"
+                    android:focusable="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:animateLayoutChanges="@bool/livelike_widget_component_layout_transition_enabled"
+                android:clickable="false"
+                android:descendantFocusability="blocksDescendants"
+                android:paddingLeft="@dimen/livelike_cheer_meter_padding"
+                android:paddingTop="35dp"
+                android:paddingRight="@dimen/livelike_cheer_meter_padding"
+                android:paddingBottom="35dp">
+
+                <ImageView
+                    android:id="@+id/img_logo_team_1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginRight="10dp"
+                    android:contentDescription="@string/team_one"
+                    android:padding="13dp" />
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/lottie_vs_animation"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp" />
+
+                <ImageView
+                    android:id="@+id/img_logo_team_2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="10dp"
+                    android:contentDescription="@string/team_two"
+                    android:padding="13dp" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/ll_cheer_meter_teams"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_gravity="top"
+                android:animateLayoutChanges="@bool/livelike_widget_component_layout_transition_enabled">
+
+                <TextView
+                    android:id="@+id/txt_cheer_meter_team_1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/cheer_meter_team_1_background_gradient"
+                    android:gravity="center"
+                    android:padding="3dp"
+                    android:textColor="@color/txt_cheer_meter_team_1_color"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead.Inverse" />
+
+                <TextView
+                    android:id="@+id/txt_cheer_meter_team_2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/cheer_meter_team_2_background_gradient"
+                    android:gravity="center"
+                    android:textColor="@color/txt_cheer_meter_team_2_color"
+                    android:padding="3dp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead.Inverse" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/ll_my_score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="15dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <!--                <TextView-->
+                <!--                    android:layout_width="wrap_content"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:text="MY SCORE"-->
+                <!--                    android:textColor="@android:color/white"-->
+                <!--                    android:textSize="15sp"-->
+                <!--                    android:textStyle="bold" />-->
+
+                <TextView
+                    android:id="@+id/txt_my_score"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/white"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fl_result_team"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="@dimen/livelike_cheer_meter_result_margin_top">
+
+        <ImageView
+            android:id="@+id/img_winner_team"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/winner" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/img_winner_anim"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center" />
+    </FrameLayout>
+
+</FrameLayout>

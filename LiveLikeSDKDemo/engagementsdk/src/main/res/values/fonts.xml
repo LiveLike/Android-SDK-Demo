@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Widgets-->
+    <item name="livelike_option_font" type="font">@font/roboto_regular</item>
+    <item name="livelike_header_font" type="font">@font/roboto_bold</item>
+    <item name="livelike_alert_body_font" type="font">@font/roboto_regular</item>
+    <item name="livelike_alert_link_font" type="font">@font/roboto_bold</item>
+    <item name="livelike_alert_label_font" type="font">@font/roboto_bold</item>
+    <item name="livelike_video_alert_label_font" type="font">@font/roboto_bold</item>
+    <item name="livelike_video_alert_body_font" type="font">@font/roboto_regular</item>
+
+    <!--Chat-->
+    <item name="livelike_chat_message_font" type="font">@font/roboto_regular</item>
+    <item name="livelike_chat_nickname_font" type="font">@font/roboto_bold</item>
+
+    <item name="livelike_chatMessage_timestamp_text_font" type="font">@font/roboto_regular</item>
+
+    <item name="livelike_sponsor_label_font" type="font">@font/titillium_semibold</item>
+
+</resources>

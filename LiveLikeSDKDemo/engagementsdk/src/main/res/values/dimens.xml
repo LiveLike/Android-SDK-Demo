@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="livelike_alert_body_text_size">14sp</dimen>
+    <dimen name="livelike_alert_link_text_size">14sp</dimen>
+    <dimen name="livelike_alert_label_text_size">12sp</dimen>
+
+    <dimen name="livelike_percent_label_text_size">18sp</dimen>
+    <dimen name="livelike_header_text_size">12sp</dimen>
+    <dimen name="livelike_option_text_size">14sp</dimen>
+    <dimen name="livelike_widget_tag_text_size">12sp</dimen>
+
+    <dimen name="livelike_default_chat_cell_text_size">16sp</dimen>
+    <dimen name="livelike_default_chat_cell_name_size">12sp</dimen>
+    <dimen name="livelike_default_chat_input_text_size">14sp</dimen>
+    <dimen name="livelike_default_chat_cell_margin_vertical">8dp</dimen>
+    <dimen name="livelike_default_chat_cell_padding_horizontal">16dp</dimen>
+    <dimen name="livelike_default_chat_cell_padding_left">
+        @dimen/livelike_default_chat_cell_padding_horizontal
+    </dimen>
+    <dimen name="livelike_default_chat_cell_padding_right">
+        @dimen/livelike_default_chat_cell_padding_horizontal
+    </dimen>
+    <dimen name="livelike_default_chat_cell_padding_vertical">8dp</dimen>
+    <dimen name="livelike_default_chat_cell_padding_top">
+        @dimen/livelike_default_chat_cell_padding_vertical
+    </dimen>
+    <dimen name="livelike_default_chat_cell_padding_bottom">
+        @dimen/livelike_default_chat_cell_padding_vertical
+    </dimen>
+    <dimen name="livelike_default_chat_input_border_radius">12dp</dimen>
+    <dimen name="livelike_default_chat_input_border_stroke">1dp</dimen>
+    <dimen name="livelike_default_chat_input_margin_bottom">8dp</dimen>
+
+    <dimen name="livelike_alert_link_padding_top">6dp</dimen>
+    <dimen name="livelike_alert_link_padding_bottom">8dp</dimen>
+    <dimen name="livelike_alert_link_text_margin_top">4dp</dimen>
+    <dimen name="livelike_alert_link_text_margin_left">16dp</dimen>
+    <dimen name="livelike_alert_link_text_margin_bottom">5dp</dimen>
+    <dimen name="livelike_alert_link_text_margin_right">10dp</dimen>
+
+
+    <dimen name="livelike_percent_bar_corner_radius">4dp</dimen>
+    <dimen name="livelike_percent_bar_corner_radius_image">2dp</dimen>
+    <dimen name="livelike_header_corner_radius">6dp</dimen>
+    <dimen name="livelike_chat_rounded_rect_radius">12dp</dimen>
+    <dimen name="livelike_button_corner_radius">6dp</dimen>
+    <dimen name="livelike_button_outline_stroke_width">2dp</dimen>
+    <dimen name="livelike_confirm_outline_stroke_width">1dp</dimen>
+    <dimen name="livelike_header_outline_stroke_width">1dp</dimen>
+
+
+    <dimen name="widget_option_item_padding_start">16dp</dimen>
+    <dimen name="widget_option_item_padding_end">64dp</dimen>
+    <dimen name="widget_option_item_padding_top">2dp</dimen>
+
+    <!-- video widget-->
+    <dimen name="livelike_video_widget_label_text_size">16sp</dimen>
+    <dimen name="livelike_video_alert_body_text_size">14sp</dimen>
+    <dimen name="livelike_video_alert_link_text_size">14sp</dimen>
+    <dimen name="livelike_video_alert_label_text_size">12sp</dimen>
+
+
+
+    <!--    Gamification-->
+    <dimen name="livelike_rank_label_text_size">10sp</dimen>
+    <dimen name="livelike_cheer_meter_corner_radius">8dp</dimen>
+    <dimen name="livelike_cheer_meter_padding">10dp</dimen>
+    <dimen name="livelike_cheer_meter_result_margin_top">40dp</dimen>
+    <dimen name="livelike_chat_reaction_size">24dp</dimen>
+    <dimen name="livelike_chat_reaction_display_size">12dp</dimen>
+    <dimen name="livelike_chat_reaction_popup_text_size">10sp</dimen>
+    <dimen name="livelike_alert_notification_label_padding_bottom">10dp</dimen>
+    <dimen name="livelike_alert_notification_label_padding_left">16dp</dimen>
+    <dimen name="livelike_alert_notification_label_padding_right">34dp</dimen>
+    <dimen name="livelike_alert_notification_label_padding_top">10dp</dimen>
+    <dimen name="livelike_poll_title_padding_bottom">10dp</dimen>
+    <dimen name="livelike_poll_title_padding_left">16dp</dimen>
+    <dimen name="livelike_poll_title_padding_right">34dp</dimen>
+    <dimen name="livelike_poll_title_padding_top">10dp</dimen>
+    <dimen name="livelike_prediction_title_padding_bottom">10dp</dimen>
+    <dimen name="livelike_prediction_title_padding_left">16dp</dimen>
+    <dimen name="livelike_prediction_title_padding_right">34dp</dimen>
+    <dimen name="livelike_prediction_title_padding_top">10dp</dimen>
+    <dimen name="livelike_default_background_radius">8dp</dimen>
+    <dimen name="livelike_correct_bar_padding_bottom">15dp</dimen>
+    <dimen name="livelike_correct_bar_padding_left">16dp</dimen>
+    <dimen name="livelike_correct_bar_padding_right">48dp</dimen>
+    <dimen name="livelike_correct_bar_padding_top">14dp</dimen>
+    <dimen name="livelike_neutral_bar_padding_bottom">15dp</dimen>
+    <dimen name="livelike_neutral_bar_padding_left">16dp</dimen>
+    <dimen name="livelike_neutral_bar_padding_right">48dp</dimen>
+    <dimen name="livelike_neutral_bar_padding_top">14dp</dimen>
+    <dimen name="livelike_poll_bar_padding_bottom">15dp</dimen>
+    <dimen name="livelike_poll_bar_padding_left">16dp</dimen>
+    <dimen name="livelike_poll_bar_padding_right">48dp</dimen>
+    <dimen name="livelike_poll_bar_padding_top">14dp</dimen>
+    <dimen name="livelike_prediction_bar_padding_bottom">15dp</dimen>
+    <dimen name="livelike_prediction_bar_padding_left">16dp</dimen>
+    <dimen name="livelike_prediction_bar_padding_right">48dp</dimen>
+    <dimen name="livelike_prediction_bar_padding_top">14dp</dimen>
+    <dimen name="livelike_quiz_bar_padding_bottom">15dp</dimen>
+    <dimen name="livelike_quiz_bar_padding_left">16dp</dimen>
+    <dimen name="livelike_quiz_bar_padding_right">48dp</dimen>
+    <dimen name="livelike_quiz_bar_padding_top">14dp</dimen>
+    <dimen name="livelike_wrong_bar_padding_bottom">15dp</dimen>
+    <dimen name="livelike_wrong_bar_padding_left">16dp</dimen>
+    <dimen name="livelike_wrong_bar_padding_right">48dp</dimen>
+    <dimen name="livelike_wrong_bar_padding_top">14dp</dimen>
+    <dimen name="ripple_effect_team1_stroke_width">2dp</dimen>
+    <dimen name="ripple_effect_team2_stroke_width">2dp</dimen>
+    <dimen name="livelike_reaction_margin_top">5dp</dimen>
+    <dimen name="livelike_reaction_count_margin_top">3.5dp</dimen>
+    <dimen name="livelike_reaction_margin_right">3dp</dimen>
+    <dimen name="livelike_reaction_margin_left">0dp</dimen>
+    <dimen name="livelike_reaction_margin_bottom">0dp</dimen>
+    <dimen name="livelike_reaction_height">13dp</dimen>
+    <dimen name="livelike_reaction_count_height">13dp</dimen>
+    <dimen name="livelike_reaction_count_margin_right">18dp</dimen>
+    <dimen name="livelike_reaction_count_margin_bottom">0dp</dimen>
+    <dimen name="livelike_reaction_count_margin_left">0dp</dimen>
+    <dimen name="livelike_reaction_count_text_size">11sp</dimen>
+    <dimen name="livelike_chat_message_date_time_margin_top">4dp</dimen>
+    <dimen name="livelike_chat_message_date_time_margin_left">0dp</dimen>
+    <dimen name="livelike_chat_message_date_time_margin_right">0dp</dimen>
+    <dimen name="livelike_chat_message_date_time_margin_bottom">0dp</dimen>
+    <dimen name="livelike_chat_message_date_time_text_size">12sp</dimen>
+    <dimen name="livelike_chat_bubble_background_margin_left">8dp</dimen>
+    <dimen name="livelike_chat_bubble_background_margin_top">4dp</dimen>
+    <dimen name="livelike_chat_bubble_background_margin_right">8dp</dimen>
+    <dimen name="livelike_chat_bubble_background_margin_bottom">4dp</dimen>
+    <dimen name="livelike_chat_avatar_margin_left">16dp</dimen>
+    <dimen name="livelike_chat_avatar_margin_right">10dp</dimen>
+    <dimen name="livelike_chat_avatar_margin_bottom">6dp</dimen>
+    <dimen name="livelike_chat_avatar_margin_top">0dp</dimen>
+    <dimen name="livelike_chat_avatar_width">50dp</dimen>
+    <dimen name="livelike_chat_avatar_height">50dp</dimen>
+    <dimen name="livelike_snap_live_width">30dp</dimen>
+    <dimen name="livelike_snap_live_height">30dp</dimen>
+    <dimen name="livelike_snap_live_margin_end">20dp</dimen>
+    <dimen name="livelike_snap_live_margin_right">28dp</dimen>
+    <dimen name="livelike_sticker_keyboard_height">200dp</dimen>
+    <dimen name="livelike_chat_input_box_margin_left">8dp</dimen>
+    <dimen name="livelike_chat_input_box_margin_right">8dp</dimen>
+    <dimen name="livelike_chat_input_box_margin_bottom">16dp</dimen>
+    <dimen name="livelike_chat_input_box_margin_top">0dp</dimen>
+    <dimen name="livelike_chat_input_border_box_margin_start">8dp</dimen>
+    <dimen name="livelike_chat_input_border_box_margin_left">8dp</dimen>
+    <dimen name="livelike_chat_input_border_box_margin_top">8dp</dimen>
+    <dimen name="livelike_chat_input_border_box_margin_right">8dp</dimen>
+    <dimen name="livelike_chat_input_padding_start">16dp</dimen>
+    <dimen name="livelike_chat_input_padding_left">16dp</dimen>
+    <dimen name="livelike_chat_input_padding_end">16dp</dimen>
+    <dimen name="livelike_chat_input_padding_right">16dp</dimen>
+    <dimen name="livelike_chat_input_sticker_icon_width">40dp</dimen>
+    <dimen name="livelike_chat_input_sticker_icon_height">40dp</dimen>
+    <dimen name="livelike_chat_input_sticker_icon_margin_end">8dp</dimen>
+    <dimen name="livelike_chat_input_sticker_icon_margin_right">8dp</dimen>
+    <dimen name="livelike_chat_input_sticker_icon_margin_top">0dp</dimen>
+    <dimen name="livelike_chat_input_sticker_icon_margin_bottom">0dp</dimen>
+    <dimen name="livelike_chat_input_sticker_icon_padding">9dp</dimen>
+    <dimen name="livelike_chat_input_send_button_width">56dp</dimen>
+    <dimen name="livelike_chat_input_send_button_height">40dp</dimen>
+    <dimen name="livelike_chat_input_send_button_margin_left">3dp</dimen>
+    <dimen name="livelike_chat_input_send_button_padding_left">13dp</dimen>
+    <dimen name="livelike_chat_input_send_button_padding_top">5dp</dimen>
+    <dimen name="livelike_chat_input_send_button_padding_right">13dp</dimen>
+    <dimen name="livelike_chat_input_send_button_padding_bottom">5dp</dimen>
+    <dimen name="livelike_sticker_keyboard_tab_height">40dp</dimen>
+    <dimen name="livelike_sticker_keyboard_empty_text_size">15sp</dimen>
+    <dimen name="livelike_snap_live_margin_bottom">0dp</dimen>
+    <dimen name="livelike_snap_live_margin_left">0dp</dimen>
+    <dimen name="livelike_snap_live_margin_start">0dp</dimen>
+    <dimen name="livelike_snap_live_radius">15dp</dimen>
+    <dimen name="livelike_snap_live_elevation">4dp</dimen>
+    <dimen name="tag_padding_start">14dp</dimen>
+    <dimen name="tag_padding_end">16dp</dimen>
+    <dimen name="title_padding_start">16dp</dimen>
+    <dimen name="title_padding_top">12dp</dimen>
+    <dimen name="title_padding_end">16dp</dimen>
+    <dimen name="title_padding_right">16dp</dimen>
+    <dimen name="title_padding_bottom">10dp</dimen>
+    <dimen name="alert_title_padding_left">16dp</dimen>
+    <dimen name="alert_title_padding_right">16dp</dimen>
+    <dimen name="cheer_meter_title_padding">5dp</dimen>
+    <dimen name="livelike_image_slider_padding_left">6dp</dimen>
+    <dimen name="livelike_image_slider_padding_top">3dp</dimen>
+    <dimen name="livelike_image_slider_padding_right">6dp</dimen>
+    <dimen name="livelike_image_slider_padding_bottom">3dp</dimen>
+    <dimen name="livelike_alert_header_corner_radius">6dp</dimen>
+    <dimen name="livelike_alert_body_corner_radius">6dp</dimen>
+    <dimen name="livelike_image_slider_corner_radius">6dp</dimen>
+    <dimen name="livelike_poll_header_corner_radius">6dp</dimen>
+    <dimen name="livelike_poll_corner_radius">6dp</dimen>
+    <dimen name="widget_text_item_progress_height">24dp</dimen>
+    <dimen name="widget_text_item_progress_margin_left">8dp</dimen>
+    <dimen name="widget_text_item_progress_margin_right">8dp</dimen>
+    <dimen name="livelike_prediction_corner_radius">6dp</dimen>
+    <dimen name="livelike_poll_option_corner_radius">6dp</dimen>
+    <dimen name="livelike_prediction_option_corner_radius">6dp</dimen>
+    <dimen name="livelike_quiz_corner_radius">6dp</dimen>
+    <dimen name="livelike_quiz_option_corner_radius">6dp</dimen>
+    <dimen name="livelike_body_image_margin">5dp</dimen>
+    <dimen name="livelike_body_text_margin_left">16dp</dimen>
+    <dimen name="livelike_body_text_margin_top">23dp</dimen>
+    <dimen name="livelike_body_text_margin_right">90dp</dimen>
+    <dimen name="livelike_body_text_margin_bottom">23dp</dimen>
+    <dimen name="livelike_link_background_margin_top">5dp</dimen>
+    <dimen name="livelike_link_arrow_margin_right">16dp</dimen>
+    <dimen name="livelike_vote_btn_radius">5dp</dimen>
+    <item name="livelike_snap_live_horizontal_bias" format="float" type="dimen">1.0</item>
+    <dimen name="livelike_video_title_padding_left">16dp</dimen>
+    <dimen name="livelike_video_title_padding_right">16dp</dimen>
+    <dimen name="livelike_video_alert_body_text_margin_top">12dp</dimen>
+    <dimen name="livelike_video_alert_body_text_margin_bottom">10dp</dimen>
+    <dimen name="livelike_video_alert_body_corner_radius">6dp</dimen>
+
+    <!-- AMA widget-->
+    <dimen name="livelike_ama_inputbox_margin_top">17dp</dimen>
+    <dimen name="livelike_ama_inputbox_margin_left">16dp</dimen>
+    <dimen name="livelike_ama_inputbox_margin_right">16dp</dimen>
+    <dimen name="livelike_ama_inputbox_padding">16dp</dimen>
+    <dimen name="livelike_ama_inputbox_padding_right">18dp</dimen>
+    <dimen name="livelike_ama_inputbox_padding_bottom">18dp</dimen>
+    <dimen name="livelike_ama_send_margin_top">12dp</dimen>
+    <dimen name="livelike_ama_send_margin_left">16dp</dimen>
+    <dimen name="livelike_ama_send_margin_right">16dp</dimen>
+    <dimen name="livelike_ama_send_btn_radius">5dp</dimen>
+    <dimen name="livelike_ama_confirmation_message_padding_start">12dp</dimen>
+    <dimen name="livelike_ama_confirmation_message_padding_end">16dp</dimen>
+    <dimen name="livelike_ama_count_text_margin_end">22dp</dimen>
+    <dimen name="livelike_ama_count_text_margin_bottom">3dp</dimen>
+    <dimen name="livelike_ama_count_text_margin_top">2dp</dimen>
+    <dimen name="livelike_sponsor_label_text_size">12sp</dimen>
+    <dimen name="livelike_ama_title_padding_top">12dp</dimen>
+
+
+
+</resources>

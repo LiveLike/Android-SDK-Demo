@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <solid android:color="@color/livelike_chat_input_background_color" />
+    <corners
+        android:bottomLeftRadius="@dimen/livelike_default_chat_input_border_radius"
+        android:bottomRightRadius="@dimen/livelike_default_chat_input_border_radius"
+        android:topLeftRadius="@dimen/livelike_default_chat_input_border_radius"
+        android:topRightRadius="@dimen/livelike_default_chat_input_border_radius" />
+
+    <stroke
+        android:width="@dimen/livelike_default_chat_input_border_stroke"
+        android:color="@color/livelike_chat_input_border_color" />
+
+</shape>
